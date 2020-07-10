@@ -56,7 +56,7 @@
         ]
     },
     {
-        "titulo" : "Launching into Machine Learning",
+        "titulo" : "Process Mining: Data science in Action",
         "duracao_horas" : 22,
         "emittido_por" : "Coursera",
         "areas": [
@@ -65,7 +65,40 @@
             {"nome_area": "Process Mining"},
             {"nome_area": "Data Mining"}
         ]
-    }
+    },
+    {
+        "titulo" : "MongoDB Basics",
+        "duracao_horas" : 2,
+        "emittido_por" : "MongoDB, Inc.",
+        "areas": [
+            {"nome_area": "Database"},
+            {"nome_area": "NoSQL"},
+            {"nome_area": "MongoDB"}
+        ]
+    },
+    {
+        "titulo" : "The MongoDB Aggregation Framework",
+        "duracao_horas" : 4,
+        "emittido_por" : "MongoDB, Inc.",
+        "areas": [
+            {"nome_area": "Database"},
+            {"nome_area": "NoSQL"},
+            {"nome_area": "MongoDB"},
+            {"nome_area": "Aggregation"},
+            {"nome_area": "Framework"}
+        ]
+    },
+    {
+        "titulo" : "Data Modeling",
+        "duracao_horas" : 4,
+        "emittido_por" : "MongoDB, Inc.",
+        "areas": [
+            {"nome_area": "Database"},
+            {"nome_area": "NoSQL"},
+            {"nome_area": "MongoDB"},
+            {"nome_area": "Data Modeling"}
+        ]
+    },
 
     ]
 }
