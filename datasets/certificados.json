@@ -1,0 +1,71 @@
+{
+"ceritificado": [
+    {
+        "titulo" : "Machine Learning",
+        "duracao_horas" : 54,
+        "emittido_por" : "Coursera",
+        "areas": [
+            {"nome_area": "Machine Learning"},
+            {"nome_area": "Logistic Regression"},
+            {"nome_area": "Artificial Neural Network"},
+            {"nome_area": "Algorithms"}
+        ],
+        "valor" : 0
+    },
+    {
+        "titulo" : "Clasificación de imágenes: cómo reconocer el contenido de una imagen?",
+        "duracao_horas" : 17,
+        "emittido_por" : "Coursera",
+        "areas": [
+            {"nome_area": "Machine Learning"},
+            {"nome_area": "Computer Vision"}
+        ]
+    },
+    {
+        "titulo" : "How Google does Machine Learning",
+        "duracao_horas" : 8,
+        "emittido_por" : "Coursera",
+        "areas": [
+            {"nome_area": "Application Programming Interfaces"},
+            {"nome_area": "Inclusive ML"},
+            {"nome_area": "Machine Learning"},
+            {"nome_area": "Google Cloud Platform"},
+            {"nome_area": "Bigquery"}           
+        ]
+    },
+    {
+        "titulo" : "End-to-End Machine Learning with TensorFlow on GCP",
+        "duracao_horas" : 13,
+        "emittido_por" : "Coursera",
+        "areas": [
+            {"nome_area": "Tensorflow"},
+            {"nome_area": "Convolutional Neural Network"},
+            {"nome_area": "Estimator"},
+            {"nome_area": "Advanced Machine Learning"}
+        ]
+    },
+    {
+        "titulo" : "Launching into Machine Learning",
+        "duracao_horas" : 6,
+        "emittido_por" : "Coursera",
+        "areas": [
+            {"nome_area": "Tensorflow"},
+            {"nome_area": "Bigquery"},
+            {"nome_area": "Machine Learning"},
+            {"nome_area": "Data Cleansing"}
+        ]
+    },
+    {
+        "titulo" : "Launching into Machine Learning",
+        "duracao_horas" : 22,
+        "emittido_por" : "Coursera",
+        "areas": [
+            {"nome_area": "Petri Net"},
+            {"nome_area": "Process Modeling"},
+            {"nome_area": "Process Mining"},
+            {"nome_area": "Data Mining"}
+        ]
+    }
+
+    ]
+}
