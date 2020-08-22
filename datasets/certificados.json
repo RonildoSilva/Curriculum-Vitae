@@ -117,7 +117,8 @@
             {"nome_area": "Mobile"},
             {"nome_area": "Java"}
         ],
-        "ano" : 2017
+        "ano" : 2017,
+        "data" : "2017-12-10"
     },
     {
         "titulo" : "Angular 1 - Crie Webapps Poderosas",
@@ -128,7 +129,8 @@
             {"nome_area": "Javascript"},
             {"nome_area": "Web"}
         ],
-        "ano" : 2017
+        "ano" : 2017,
+        "data" : "2017-04-11"
     },
     {
         "titulo" : "Angular 2 - Crie Webapps Ainda mais Poderosas",
@@ -139,7 +141,8 @@
             {"nome_area": "Javascript"},
             {"nome_area": "Web"}
         ],
-        "ano" : 2017
+        "ano" : 2017,
+        "data" : "2017-04-17"
     },
     {
         "titulo" : "Javascript - Programando na Linguagem da Web",
@@ -149,7 +152,8 @@
             {"nome_area": "Javascript"},
             {"nome_area": "Web"}
         ],
-        "ano" : 2017
+        "ano" : 2017,
+        "data" : "2017-04-05"
     },
     {
         "titulo" : "Machine Learning - Introdução à Classificação",
@@ -159,7 +163,8 @@
             {"nome_area": "Machine Learning"},
             {"nome_area": "Classification"}
         ],
-        "ano" : 2017
+        "ano" : 2017,
+        "data" : "2017-12-08"
     },
     {
         "titulo" : "Machine Learning Avançado com Tipos Diferentes de Classificação",
@@ -169,7 +174,8 @@
             {"nome_area": "Machine Learning"},
             {"nome_area": "Classification"}
         ],
-        "ano" : 2017
+        "ano" : 2017,
+        "data" : "2017-12-10"
     },
     {
         "titulo" : "Certificate of Graduation - EF Level 1 - Beginner - CEFR Level A1",
@@ -178,7 +184,8 @@
         "areas": [
             {"nome_area": "English"}
         ],
-        "ano" : 2017
+        "ano" : 2017,
+        "data" : "2017-04-19"
     },
     {
         "titulo" : "Certificate of Graduation - EF Level 7 - Intermediate - CEFR Level B1",
@@ -187,7 +194,8 @@
         "areas": [
             {"nome_area": "English"}
         ],
-        "ano" : 2017
+        "ano" : 2017,
+        "data" : "2017-03-03"
     },
     {
         "titulo" : "Certificate of Graduation - EF Level 10 - Upper Intermediate - CEFR Level B2",
@@ -196,7 +204,8 @@
         "areas": [
             {"nome_area": "English"}
         ],
-        "ano" : 2017
+        "ano" : 2017,
+        "data" : "2017-03-22"
     },
     {
         "titulo" : "Certificate of Graduation - EF Level 11 - Upper Intermediate - CEFR Level B2",
@@ -205,7 +214,8 @@
         "areas": [
             {"nome_area": "English"}
         ],
-        "ano" : 2017
+        "ano" : 2017,
+        "data" : "2017-04-18"
     },
     {
         "titulo" : "Certificate of Graduation - EF Level 13 - Advanced - CEFR Level C1",
@@ -214,7 +224,8 @@
         "areas": [
             {"nome_area": "English"}
         ],
-        "ano" : 2017
+        "ano" : 2017,
+        "data" : "2017-09-24"
     },
     {
         "titulo" : "Certificate of Graduation - EF Level 14 - Advanced - CEFR Level C1",
@@ -223,7 +234,8 @@
         "areas": [
             {"nome_area": "English"}
         ],
-        "ano" : 2018
+        "ano" : 2018,
+        "data" : "2018-02-02"
     },
     {
         "titulo" : "Certificate of Graduation - EF Level 15 - Advanced - CEFR Level C1",
@@ -232,7 +244,8 @@
         "areas": [
             {"nome_area": "English"}
         ],
-        "ano" : 2018
+        "ano" : 2018,
+        "data" : "2018-04-12"
     },
     {
         "titulo" : "Certificate of Graduation - EF Level 16 - Upper Advanced - CEFR Level C2",
@@ -241,7 +254,8 @@
         "areas": [
             {"nome_area": "English"}
         ],
-        "ano" : 2018
+        "ano" : 2018,
+        "data" : "2018-04-07"
     },
     {
         "titulo" : "Marathon Xamarin Middle East and Africa",
@@ -255,7 +269,8 @@
             {"nome_area": "Azure"}
             
         ],
-        "ano" : 2017
+        "ano" : 2017,
+        "data" : "2017-06-01"
     },
     {
         "titulo" : "Maratona Xamarin Nível Intermediário",
@@ -268,7 +283,8 @@
             {"nome_area": "XAML"},
             {"nome_area": "Azure"}
         ],
-        "ano" : 2017
+        "ano" : 2017,
+        "data" : "2017-06-01"
     },
     {
         "titulo" : "Maratona Xamarin Brasil",
@@ -281,7 +297,8 @@
             {"nome_area": "XAML"}
             
         ],
-        "ano" : 2017
+        "ano" : 2017,
+        "data" : "2017-05-01"
     },
     {
         "titulo" : "Fundamentos do desenvolvimento de software",
@@ -291,7 +308,8 @@
             {"nome_area": "C#"}
             
         ],
-        "ano" : 2013
+        "ano" : 2013,
+        "data" : "2013-03-23"
     },
     {
         "titulo" : "Introdução rápida ao desenvolvimento em HTML5 com JavaScript e CSS3",
@@ -303,7 +321,8 @@
             {"nome_area": "CSS 3"}
             
         ],
-        "ano" : 2016
+        "ano" : 2016,
+        "data" : "2016-09-14"
     },
     {
         "titulo" : "JavaScript Fundamentals for Absolute Beginners",
@@ -312,7 +331,8 @@
         "areas": [
             {"nome_area": "Javascript"}
         ],
-        "ano" : 2016
+        "ano" : 2016,
+        "data" : "2016-09-14"
     },
     {
         "titulo" : "Windows 8 - Sua primeira App na Windows Store",
@@ -322,7 +342,8 @@
             {"nome_area": "Mobile"},
             {"nome_area": "C#"}  
         ],
-        "ano" : 2013
+        "ano" : 2013,
+        "data" : "2013-03-16"
     },
     {
         "titulo" : "ServiceNow Certified Administration For Beginners",
