@@ -3,102 +3,511 @@
     {
         "titulo" : "Machine Learning",
         "duracao_horas" : 54,
-        "emittido_por" : "Coursera",
+        "emitido_por" : "Stanford University",
         "areas": [
             {"nome_area": "Machine Learning"},
             {"nome_area": "Logistic Regression"},
             {"nome_area": "Artificial Neural Network"},
             {"nome_area": "Algorithms"}
         ],
-        "valor" : 0
+        "ano" : 2018
     },
     {
         "titulo" : "Clasificación de imágenes: cómo reconocer el contenido de una imagen?",
         "duracao_horas" : 17,
-        "emittido_por" : "Coursera",
+        "emitido_por" : "Universitat Autònoma de Barcelona",
         "areas": [
             {"nome_area": "Machine Learning"},
             {"nome_area": "Computer Vision"}
-        ]
+        ],
+        "ano" : 2018
     },
     {
         "titulo" : "How Google does Machine Learning",
         "duracao_horas" : 8,
-        "emittido_por" : "Coursera",
+        "emitido_por" : "Google Cloud",
         "areas": [
             {"nome_area": "Application Programming Interfaces"},
             {"nome_area": "Inclusive ML"},
             {"nome_area": "Machine Learning"},
             {"nome_area": "Google Cloud Platform"},
             {"nome_area": "Bigquery"}           
-        ]
+        ],
+        "ano" : 2018
     },
     {
         "titulo" : "End-to-End Machine Learning with TensorFlow on GCP",
         "duracao_horas" : 13,
-        "emittido_por" : "Coursera",
+        "emitido_por" : "Google Cloud",
         "areas": [
             {"nome_area": "Tensorflow"},
             {"nome_area": "Convolutional Neural Network"},
             {"nome_area": "Estimator"},
             {"nome_area": "Advanced Machine Learning"}
-        ]
+        ],
+        "ano" : 2018
     },
     {
         "titulo" : "Launching into Machine Learning",
         "duracao_horas" : 6,
-        "emittido_por" : "Coursera",
+        "emitido_por" : "Google Cloud",
         "areas": [
             {"nome_area": "Tensorflow"},
             {"nome_area": "Bigquery"},
             {"nome_area": "Machine Learning"},
             {"nome_area": "Data Cleansing"}
-        ]
+        ],
+        "ano" : 2019
     },
     {
         "titulo" : "Process Mining: Data science in Action",
         "duracao_horas" : 22,
-        "emittido_por" : "Coursera",
+        "emitido_por" : "Eindhoven University of Technology",
         "areas": [
             {"nome_area": "Petri Net"},
             {"nome_area": "Process Modeling"},
             {"nome_area": "Process Mining"},
             {"nome_area": "Data Mining"}
-        ]
+        ],
+        "ano" : 2020,
+        "data": "2020-04-27"
     },
     {
         "titulo" : "MongoDB Basics",
         "duracao_horas" : 2,
-        "emittido_por" : "MongoDB, Inc.",
+        "emitido_por" : "MongoDB, Inc.",
         "areas": [
             {"nome_area": "Database"},
             {"nome_area": "NoSQL"},
             {"nome_area": "MongoDB"}
-        ]
+        ],
+        "ano" : 2020
     },
     {
         "titulo" : "The MongoDB Aggregation Framework",
-        "duracao_horas" : 4,
-        "emittido_por" : "MongoDB, Inc.",
+        "duracao_horas" : 6,
+        "emitido_por" : "MongoDB, Inc.",
         "areas": [
             {"nome_area": "Database"},
             {"nome_area": "NoSQL"},
             {"nome_area": "MongoDB"},
             {"nome_area": "Aggregation"},
             {"nome_area": "Framework"}
-        ]
+        ],
+        "ano" : 2020
     },
     {
         "titulo" : "Data Modeling",
-        "duracao_horas" : 4,
-        "emittido_por" : "MongoDB, Inc.",
+        "duracao_horas" : 6,
+        "emitido_por" : "MongoDB, Inc.",
         "areas": [
             {"nome_area": "Database"},
             {"nome_area": "NoSQL"},
             {"nome_area": "MongoDB"},
             {"nome_area": "Data Modeling"}
-        ]
+        ],
+        "ano" : 2020
     },
-
+    {
+        "titulo" : "Android I - Crie sua app fantástica com Android Studio",
+        "duracao_horas" : 10,
+        "emitido_por" : "Alura",
+        "areas": [
+            {"nome_area": "Android"},
+            {"nome_area": "Mobile"},
+            {"nome_area": "Java"}
+        ],
+        "ano" : 2017
+    },
+    {
+        "titulo" : "Angular 1 - Crie Webapps Poderosas",
+        "duracao_horas" : 16,
+        "emitido_por" : "Alura",
+        "areas": [
+            {"nome_area": "Angular JS"},
+            {"nome_area": "Javascript"},
+            {"nome_area": "Web"}
+        ],
+        "ano" : 2017
+    },
+    {
+        "titulo" : "Angular 2 - Crie Webapps Ainda mais Poderosas",
+        "duracao_horas" : 18,
+        "emitido_por" : "Alura",
+        "areas": [
+            {"nome_area": "Angular JS"},
+            {"nome_area": "Javascript"},
+            {"nome_area": "Web"}
+        ],
+        "ano" : 2017
+    },
+    {
+        "titulo" : "Javascript - Programando na Linguagem da Web",
+        "duracao_horas" : 20,
+        "emitido_por" : "Alura",
+        "areas": [
+            {"nome_area": "Javascript"},
+            {"nome_area": "Web"}
+        ],
+        "ano" : 2017
+    },
+    {
+        "titulo" : "Machine Learning - Introdução à Classificação",
+        "duracao_horas" : 10,
+        "emitido_por" : "Alura",
+        "areas": [
+            {"nome_area": "Machine Learning"},
+            {"nome_area": "Classification"}
+        ],
+        "ano" : 2017
+    },
+    {
+        "titulo" : "Machine Learning Avançado com Tipos Diferentes de Classificação",
+        "duracao_horas" : 4,
+        "emitido_por" : "Alura",
+        "areas": [
+            {"nome_area": "Machine Learning"},
+            {"nome_area": "Classification"}
+        ],
+        "ano" : 2017
+    },
+    {
+        "titulo" : "Certificate of Graduation - EF Level 1 - Beginner - CEFR Level A1",
+        "duracao_horas" : 20,
+        "emitido_por" : "EF English Live",
+        "areas": [
+            {"nome_area": "English"}
+        ],
+        "ano" : 2017
+    },
+    {
+        "titulo" : "Certificate of Graduation - EF Level 7 - Intermediate - CEFR Level B1",
+        "duracao_horas" : 20,
+        "emitido_por" : "EF English Live",
+        "areas": [
+            {"nome_area": "English"}
+        ],
+        "ano" : 2017
+    },
+    {
+        "titulo" : "Certificate of Graduation - EF Level 10 - Upper Intermediate - CEFR Level B2",
+        "duracao_horas" : 20,
+        "emitido_por" : "EF English Live",
+        "areas": [
+            {"nome_area": "English"}
+        ],
+        "ano" : 2017
+    },
+    {
+        "titulo" : "Certificate of Graduation - EF Level 11 - Upper Intermediate - CEFR Level B2",
+        "duracao_horas" : 20,
+        "emitido_por" : "EF English Live",
+        "areas": [
+            {"nome_area": "English"}
+        ],
+        "ano" : 2017
+    },
+    {
+        "titulo" : "Certificate of Graduation - EF Level 13 - Advanced - CEFR Level C1",
+        "duracao_horas" : 20,
+        "emitido_por" : "EF English Live",
+        "areas": [
+            {"nome_area": "English"}
+        ],
+        "ano" : 2017
+    },
+    {
+        "titulo" : "Certificate of Graduation - EF Level 14 - Advanced - CEFR Level C1",
+        "duracao_horas" : 20,
+        "emitido_por" : "EF English Live",
+        "areas": [
+            {"nome_area": "English"}
+        ],
+        "ano" : 2018
+    },
+    {
+        "titulo" : "Certificate of Graduation - EF Level 15 - Advanced - CEFR Level C1",
+        "duracao_horas" : 20,
+        "emitido_por" : "EF English Live",
+        "areas": [
+            {"nome_area": "English"}
+        ],
+        "ano" : 2018
+    },
+    {
+        "titulo" : "Certificate of Graduation - EF Level 16 - Upper Advanced - CEFR Level C2",
+        "duracao_horas" : 20,
+        "emitido_por" : "EF English Live",
+        "areas": [
+            {"nome_area": "English"}
+        ],
+        "ano" : 2018
+    },
+    {
+        "titulo" : "Marathon Xamarin Middle East and Africa",
+        "duracao_horas" : 25,
+        "emitido_por" : "Microsoft",
+        "areas": [
+            {"nome_area": "Xamarin"},
+            {"nome_area": "Mobile"},
+            {"nome_area": "C#"},
+            {"nome_area": "XAML"},
+            {"nome_area": "Azure"}
+            
+        ],
+        "ano" : 2017
+    },
+    {
+        "titulo" : "Maratona Xamarin Nível Intermediário",
+        "duracao_horas" : 33,
+        "emitido_por" : "Microsoft",
+        "areas": [
+            {"nome_area": "Xamarin"},
+            {"nome_area": "Mobile"},
+            {"nome_area": "C#"},
+            {"nome_area": "XAML"},
+            {"nome_area": "Azure"}
+        ],
+        "ano" : 2017
+    },
+    {
+        "titulo" : "Maratona Xamarin Brasil",
+        "duracao_horas" : 25,
+        "emitido_por" : "Microsoft",
+        "areas": [
+            {"nome_area": "Xamarin"},
+            {"nome_area": "Mobile"},
+            {"nome_area": "C#"},
+            {"nome_area": "XAML"}
+            
+        ],
+        "ano" : 2017
+    },
+    {
+        "titulo" : "Fundamentos do desenvolvimento de software",
+        "duracao_horas" : 10,
+        "emitido_por" : "Microsoft",
+        "areas": [
+            {"nome_area": "C#"}
+            
+        ],
+        "ano" : 2013
+    },
+    {
+        "titulo" : "Introdução rápida ao desenvolvimento em HTML5 com JavaScript e CSS3",
+        "duracao_horas" : 10,
+        "emitido_por" : "Microsoft",
+        "areas": [
+            {"nome_area": "Javascript"},
+            {"nome_area": "HTML 5"},
+            {"nome_area": "CSS 3"}
+            
+        ],
+        "ano" : 2016
+    },
+    {
+        "titulo" : "JavaScript Fundamentals for Absolute Beginners",
+        "duracao_horas" : 10,
+        "emitido_por" : "Microsoft",
+        "areas": [
+            {"nome_area": "Javascript"}
+        ],
+        "ano" : 2016
+    },
+    {
+        "titulo" : "Windows 8 - Sua primeira App na Windows Store",
+        "duracao_horas" : 10,
+        "emitido_por" : "Microsoft",
+        "areas": [
+            {"nome_area": "Mobile"},
+            {"nome_area": "C#"}  
+        ],
+        "ano" : 2013
+    },
+    {
+        "titulo" : "ServiceNow Certified Administration For Beginners",
+        "duracao_horas" : 1.5,
+        "emitido_por" : "Udemy",
+        "areas": [
+            {"nome_area": "Service Now"}
+        ],
+        "ano" : 2017
+    },
+    {
+        "titulo" : "Music Theory for Electronic Music Producers - Complete Guide",
+        "duracao_horas" : 1.5,
+        "emitido_por" : "Udemy",
+        "areas": [
+            {"nome_area": "Music Theory"},
+            {"nome_area": "Electronic Music"}
+        ],
+        "ano" : 2018
+    },
+    {
+        "titulo" : "How to compose Beautiful & Catchy Melodies on the Piano",
+        "duracao_horas" : 16,
+        "emitido_por" : "Udemy",
+        "areas": [
+            {"nome_area": "Music"},
+            {"nome_area": "Piano"},
+            {"nome_area": "Compose"}
+        ],
+        "ano" : 2018
+    },
+    {
+        "titulo" : "Build an Augmented Reality android app in 1 hour",
+        "duracao_horas" : 1,
+        "emitido_por" : "Udemy",
+        "areas": [
+            {"nome_area": "Augmented Reality"}
+        ],
+        "ano" : 2017
+    },
+    {
+        "titulo" : "Learn Object Oriented Programming OOP in C++",
+        "duracao_horas" : 2.5,
+        "emitido_por" : "Udemy",
+        "areas": [
+            {"nome_area": "OOP"},
+            {"nome_area": "C++"}
+        ],
+        "ano" : 2018
+    },
+    {
+        "titulo" : "Modern OpenGL C++ 3D Game Tutorial Series & 3D Rendering",
+        "duracao_horas" : 13,
+        "emitido_por" : "Udemy",
+        "areas": [
+            {"nome_area": "CG"},
+            {"nome_area": "C++"},
+            {"nome_area": "Game"},
+            {"nome_area": "3D"}
+        ],
+        "ano" : 2018
+    },
+    {
+        "titulo" : "How to create unique/colourful Piano Chord Progressions",
+        "duracao_horas" : 17.5,
+        "emitido_por" : "Udemy",
+        "areas": [
+            {"nome_area": "Piano"},
+            {"nome_area": "Music"}
+        ],
+        "ano" : 2018
+    },
+    {
+        "titulo" : "Intermediate to Advanced Piano Course; Become a Top Pianist",
+        "duracao_horas" : 21,
+        "emitido_por" : "Udemy",
+        "areas": [
+            {"nome_area": "Piano"},
+            {"nome_area": "Music"}
+        ],
+        "ano" : 2017
+    },
+    {
+        "titulo" : "Artificial Intelligence II - Neural Networks in Java",
+        "duracao_horas" : 5,
+        "emitido_por" : "Udemy",
+        "areas": [
+            {"nome_area": "Artificial Intelligence"},
+            {"nome_area": "Neural Networks"},
+            {"nome_area": "Java"}
+        ],
+        "ano" : 2018
+    },
+    {
+        "titulo" : "Artificial Intelligence I: Basics and Games in Java",
+        "duracao_horas" : 6.5,
+        "emitido_por" : "Udemy",
+        "areas": [
+            {"nome_area": "Artificial Intelligence"},
+            {"nome_area": "Games"},
+            {"nome_area": "Java"}
+        ],
+        "ano" : 2017
+    },
+    {
+        "titulo" : "Learn Angular 2 from Beginner to Advanced",
+        "duracao_horas" : 10,
+        "emitido_por" : "Udemy",
+        "areas": [
+            {"nome_area": "Angular 2"},
+            {"nome_area": "Javascript"},
+            {"nome_area": "Web"}
+        ],
+        "ano" : 2017
+    },
+    {
+        "titulo" : "The Complete Android Developer Course: Beginner To Advanced!",
+        "duracao_horas" : 17.5,
+        "emitido_por" : "Udemy",
+        "areas": [
+            {"nome_area": "Android"},
+            {"nome_area": "Mobile"},
+            {"nome_area": "Development"},
+            {"nome_area": "Java"}
+        ],
+        "ano" : 2017
+    },
+    {
+        "titulo" : "Java Programming - How To Get The Oracle SE 7 Certification",
+        "duracao_horas" : 8.5,
+        "emitido_por" : "Udemy",
+        "areas": [
+            {"nome_area": "Java"}
+        ],
+        "ano" : 2017
+    },
+    {
+        "titulo" : "C# in 3 Hours: C# Programming Tutorial for Beginners",
+        "duracao_horas" : 3,
+        "emitido_por" : "Udemy",
+        "areas": [
+            {"nome_area": "C#"}
+        ],
+        "ano" : 2017
+    },
+    {
+        "titulo" : "Browser-based Models with TensorFlow.js",
+        "duracao_horas" : 18,
+        "emitido_por" : "deeplearning.ai",
+        "areas": [
+            {"nome_area": "Convolutional Neural Network"},
+            {"nome_area": "Machine Learning"},
+            {"nome_area": "Tensorflow"},
+            {"nome_area": "Object Detection"},
+            {"nome_area": "TensorFlow.js"}
+        ],
+        "ano" : 2020,
+        "data" : "2020-07-27"
+    },
+    {
+        "titulo" : "Managing Security in Google Cloud Platform",
+        "duracao_horas" : 6,
+        "emitido_por" : "Google Cloud",
+        "areas": [
+            {"nome_area": "Managing Security"},
+            {"nome_area": "Google Cloud Platform"},
+            {"nome_area": "Identity and Access Management"},
+            {"nome_area": "Virtual Private Cloud - VPC"}
+        ],
+        "ano" : 2020,
+        "data" : "2020-08-02"
+    },
+    {
+        "titulo" : "Divide and Conquer, Sorting and Searching, and Randomized Algorithms",
+        "duracao_horas" : 32,
+        "emitido_por" : "Stanford University",
+        "areas": [
+            {"nome_area": "Algorithms"},
+            {"nome_area": "Randomized Algorithm"},
+            {"nome_area": "Sorting Algorithm"},
+            {"nome_area": "Divide And Conquer Algorithms"}
+        ],
+        "ano" : 2020,
+        "data" : "2020-08-22"
+    }
+    
     ]
 }
