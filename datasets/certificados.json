@@ -576,7 +576,18 @@
         ],
         "ano" : 2020,
         "data" : "2020-09-01"
-    }
-    
+    },
+    {
+        "titulo" : "Security Best Practices in Google Cloud",
+        "duracao_horas" : 11,
+        "emitido_por" : "Google Cloud",
+        "areas": [
+            {"nome_area": "Google Cloud"},
+            {"nome_area": "Security"},
+            {"nome_area": "Cloud Computing"}
+        ],
+        "ano" : 2020,
+        "data" : "2020-10-04"
+    }    
     ]
 }
