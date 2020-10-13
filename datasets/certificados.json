@@ -588,6 +588,19 @@
         ],
         "ano" : 2020,
         "data" : "2020-10-04"
+    },
+    {
+        "titulo" : "Graph Search, Shortest Paths, and Data Structures",
+        "duracao_horas" : 32,
+        "emitido_por" : "Stanford University",
+        "areas": [
+            {"nome_area": "Algorithms"},
+            {"nome_area": "Graph Search"},
+            {"nome_area": "Shortest Paths"},
+            {"nome_area": "Data Structures"}
+        ],
+        "ano" : 2020,
+        "data" : "2020-10-13"
     }    
     ]
 }
