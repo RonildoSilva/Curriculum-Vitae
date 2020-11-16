@@ -601,6 +601,18 @@
         ],
         "ano" : 2020,
         "data" : "2020-10-13"
+    },
+	{
+        "titulo" : "Mitigating Security Vulnerabilities on Google Cloud Platform",
+        "duracao_horas" : 7,
+        "emitido_por" : "Google Cloud",
+        "areas": [
+            {"nome_area": "Google Cloud"},
+            {"nome_area": "Security"},
+            {"nome_area": "Cloud Computing"}
+        ],
+        "ano" : 2020,
+        "data" : "2020-11-16"
     }    
     ]
 }
