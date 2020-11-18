@@ -40,7 +40,6 @@
         "duracao_horas" : 13,
         "emitido_por" : "Google Cloud",
         "areas": [
-            {"nome_area": "Deep Learning"},
             {"nome_area": "Tensorflow"},
             {"nome_area": "Convolutional Neural Network"},
             {"nome_area": "Estimator"},
@@ -177,6 +176,36 @@
         ],
         "ano" : 2017,
         "data" : "2017-12-10"
+    },
+    {
+        "titulo" : "Certificate of Graduation - EF Level 1 - Beginner - CEFR Level A1",
+        "duracao_horas" : 20,
+        "emitido_por" : "EF English Live",
+        "areas": [
+            {"nome_area": "English"}
+        ],
+        "ano" : 2017,
+        "data" : "2017-04-19"
+    },
+    {
+        "titulo" : "Certificate of Graduation - EF Level 7 - Intermediate - CEFR Level B1",
+        "duracao_horas" : 20,
+        "emitido_por" : "EF English Live",
+        "areas": [
+            {"nome_area": "English"}
+        ],
+        "ano" : 2017,
+        "data" : "2017-03-03"
+    },
+    {
+        "titulo" : "Certificate of Graduation - EF Level 10 - Upper Intermediate - CEFR Level B2",
+        "duracao_horas" : 20,
+        "emitido_por" : "EF English Live",
+        "areas": [
+            {"nome_area": "English"}
+        ],
+        "ano" : 2017,
+        "data" : "2017-03-22"
     },
     {
         "titulo" : "Certificate of Graduation - EF Level 11 - Upper Intermediate - CEFR Level B2",
@@ -378,7 +407,7 @@
         "ano" : 2018
     },
     {
-        "titulo" : "How to create unique / colourful Piano Chord Progressions",
+        "titulo" : "How to create unique/colourful Piano Chord Progressions",
         "duracao_horas" : 17.5,
         "emitido_por" : "Udemy",
         "areas": [
@@ -465,12 +494,11 @@
         "duracao_horas" : 18,
         "emitido_por" : "deeplearning.ai",
         "areas": [
-            {"nome_area": "Deep Learning"},
             {"nome_area": "Convolutional Neural Network"},
             {"nome_area": "Machine Learning"},
             {"nome_area": "Tensorflow"},
             {"nome_area": "Object Detection"},
-            {"nome_area": "Javascript"}
+            {"nome_area": "TensorFlow.js"}
         ],
         "ano" : 2020,
         "data" : "2020-07-27"
