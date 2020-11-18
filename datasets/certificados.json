@@ -522,8 +522,8 @@
         "emitido_por" : "Stanford University",
         "areas": [
             {"nome_area": "Algorithms"},
-            {"nome_area": "Randomized Algorithm"},
-            {"nome_area": "Sorting Algorithm"},
+            {"nome_area": "Randomized Algorithms"},
+            {"nome_area": "Sorting Algorithms"},
             {"nome_area": "Divide And Conquer Algorithms"}
         ],
         "ano" : 2020,
@@ -613,6 +613,19 @@
         ],
         "ano" : 2020,
         "data" : "2020-11-16"
+    },
+    {
+        "titulo" : "Greedy Algorithms, Minimum Spanning Trees, and Dynamic Programming",
+        "duracao_horas" : 15,
+        "emitido_por" : "Stanford University",
+        "areas": [
+            {"nome_area": "Algorithms"},
+            {"nome_area": "Greedy Search"},
+            {"nome_area": "Trees"},
+            {"nome_area": "Dynamic Programming"}
+        ],
+        "ano" : 2020,
+        "data" : "2020-11-18"
     }    
     ]
 }
