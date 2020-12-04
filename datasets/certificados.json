@@ -598,6 +598,19 @@
         ],
         "ano" : 2020,
         "data" : "2020-11-18"
+    },
+    {
+        "titulo" : "Introdução a Machine Learning para Certificação HCIA-AI",
+        "duracao_horas" : 16,
+        "emitido_por" : "UFC",
+        "areas": [
+            {"nome_area": "Machine Learning"},
+            {"nome_area": "Deep Learning"},
+            {"nome_area": "Tensorflow"},
+            {"nome_area": "Mindspore"}
+        ],
+        "ano" : 2020,
+        "data" : "2020-12-03"
     }    
     ]
 }
