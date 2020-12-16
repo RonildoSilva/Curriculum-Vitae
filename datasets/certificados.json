@@ -611,6 +611,19 @@
         ],
         "ano" : 2020,
         "data" : "2020-12-03"
+    },
+    {
+        "titulo" : "HCIA-IA Course",
+        "duracao_horas" : 8,
+        "emitido_por" : "Huawei",
+        "areas": [
+            {"nome_area": "Machine Learning"},
+            {"nome_area": "Deep Learning"},
+            {"nome_area": "Tensorflow"},
+            {"nome_area": "Mindspore"}
+        ],
+        "ano" : 2020,
+        "data" : "2020-12-16"
     }    
     ]
 }
