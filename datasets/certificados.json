@@ -624,6 +624,19 @@
         ],
         "ano" : 2020,
         "data" : "2020-12-16"
+    },
+    {
+        "titulo" : "Shortest Paths Revisited, NP-Complete Problems and What To Do About Them",
+        "duracao_horas" : 14,
+        "emitido_por" : "Stanford University",
+        "areas": [
+            {"nome_area": "Algorithms"},
+            {"nome_area": "Data Structure"},
+            {"nome_area": "Np-Completeness"},
+            {"nome_area": "Dynamic Programming"}
+        ],
+        "ano" : 2020,
+        "data" : "2020-11-24"
     }    
     ]
 }
