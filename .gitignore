@@ -1,0 +1,60 @@
+# ---------------------------------------------------------------
+# Este repositório é PÚBLICO.
+# As regras abaixo são uma rede de segurança contra commitar
+# documentos pessoais sensíveis por engano. Elas não substituem
+# conferir o arquivo antes de adicioná-lo.
+# ---------------------------------------------------------------
+
+# documentos de identidade
+*[Rr][Gg]*[Cc][Pp][Ff]*
+*[Cc]ertidao*
+*[Cc]ertidão*
+*[Tt]itulo*[Ee]leitor*
+*[Rr]eservista*
+*[Cc][Tt][Pp][Ss]*
+*[Cc]arteira?[Dd]e?[Tt]rabalho*
+*[Cc]omprovante*[Rr]esid*
+*[Nn][Ii][Ss]*[Pp][Ii][Ss]*
+
+# fiscal e financeiro
+*[Ii][Rr][Pp][Ff]*
+*[Dd][Aa][Ss]?[ _-][Mm][Ee][Ii]*
+*[Dd][Aa][Nn][Ff][Ee]*
+*[Ii]nforme*[Rr]enda*
+*[Hh]olerite*
+*[Cc]ontracheque*
+*[Ee]xtrato*[Bb]anc*
+
+# saúde
+*[Ll]audo*
+*[Ee]xame*
+*[Aa]testado*
+*[Cc]artao*[Ss][Uu][Ss]*
+*[Cc]artão*[Ss][Uu][Ss]*
+*[Aa][Ss][Oo][ _-]*
+*[Hh]emograma*
+*[Rr]edome*
+
+# vínculos e contratos
+*[Cc]ontrato*
+*[Dd]istrato*
+*[Rr]escisao*
+*[Rr]escisão*
+*[Dd]emissao*
+*[Dd]emissão*
+*[Rr]ecibo*[Pp]agamento*
+
+# ruído do sistema
+.DS_Store
+Thumbs.db
+*.tmp
+__pycache__/
+.ipynb_checkpoints/
+legacy/
+
+# ---------------------------------------------------------------
+# Exceções revisadas: documentos do portfólio cujo nome casa com
+# um padrão acima, mas que foram conferidos e não têm dado sensível.
+# ---------------------------------------------------------------
+!portfolio/01-formacao-academica/poscomp-exame-nacional-pos-graduacao-em-computacao.pdf
+_raw/

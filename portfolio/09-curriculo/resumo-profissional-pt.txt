@@ -1,0 +1,5 @@
+Sou um Engenheiro e Profissional de Dados com vasta experiência e múltiplas certificações na área de Inteligência Artificial, Desenvolvimento Full Stack, e Engenharia de Dados. Formado em Computação pela Universidade Federal do Ceará, onde também concluí meu mestrado, me especializei em áreas como Algoritmos, Aprendizado de Máquina, Visão Computacional, e Mineração de Processos.
+
+Possuo habilidades em diversas tecnologias e metodologias, incluindo Mobile Nativo, React, MongoDB, e Cloud Lead, além de ser certificado pela Huawei Academy como AI Instructor.
+
+Tenho uma sólida experiência profissional, destacando-se como Analista de Desenvolvimento de Sistemas na SEPLAG do Ceará, onde trabalho com Big Data e Engenharia de Dados em projetos importantes para o estado. Também atuei como Desenvolvedor e Pesquisador em Big Data no Laboratório de Inovação e Dados do Governo do Ceará, além de ter experiência como Desenvolvedor Back-End e Full Stack em empresas como OSF Global Digital e iFactory Solutions.
