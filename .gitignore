@@ -58,3 +58,13 @@ legacy/
 # ---------------------------------------------------------------
 !portfolio/01-formacao-academica/poscomp-exame-nacional-pos-graduacao-em-computacao.pdf
 _raw/
+# Sistema / editores
+desktop.ini
+*.swp
+*.swo
+*~
+.~lock*#
+# Python / Jupyter
+*.pyc
+.venv/
+venv/
