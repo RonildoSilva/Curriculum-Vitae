@@ -74,33 +74,36 @@ Ordem de prioridade (impacto x esforço):
 
 Limite: 220 caracteres. Fórmula: `[o que faço] | [para quem e com que resultado] | [credenciais que recrutadores buscam]`.
 
+Atualizado em set 2026 para refletir o cargo atual na WeCogno (Engenheiro de Software, com RAG e LLM em produção) sem perder a busca por "Engenheiro de Dados".
+
 **Antes** (106 caracteres):
 
 ```
 Engenheiro de Dados | Backend & Big Data | Python, Spark, Airflow, AWS, GCP | Dados para Governo e Negócio
 ```
 
-**Depois, opção A** (recomendada, 205 caracteres):
+**Depois, opção A** (recomendada, 211 caracteres):
 
 ```
-Engenheiro de Dados e Backend | Construo pipelines e APIs que transformam dados públicos e corporativos em decisão | Python, Spark, Airflow, AWS, GCP | Mestre em Computação (UFC) | Instrutor Huawei HCIA-AI
+Engenheiro de Software e Dados | Backend, pipelines e IA (RAG, LLM) em produção para SaaS e governo | Python, FastAPI, PostgreSQL, Spark, Airflow, AWS, GCP | Mestre em Computação (UFC) | Instrutor Huawei HCIA-AI
 ```
 
-**Depois, opção B** (busca por vaga, 198 caracteres):
+**Depois, opção B** (busca por vaga, 202 caracteres):
 
 ```
-Data Engineer | Python, PySpark, Airflow, Databricks, AWS, GCP | 8 anos em Big Data para governo e setor financeiro | Mestre em Computação (UFC) | Instrutor Certificado Huawei | Agentes de IA e LLMs
+Backend & Data Engineer | Python, FastAPI, PostgreSQL, pgvector, Spark, Airflow, AWS, GCP | 8 anos em Big Data e APIs para governo, finanças e saúde | RAG e LLMs em produção | Mestre em Computação (UFC)
 ```
 
-**Depois, opção C** (bilíngue, 205 caracteres):
+**Depois, opção C** (bilíngue, 212 caracteres):
 
 ```
-Data Engineer & Backend Developer | Pipelines, APIs e plataformas de Big Data para governo e empresas | Python, Spark, Airflow, AWS, GCP | M.Sc. Computer Science (UFC) | Huawei Certified Academy Instructor
+Software Engineer (Backend, Data & AI) | APIs, pipelines e RAG/LLM em produção em SaaS de saúde | Python, FastAPI, PostgreSQL, Spark, Airflow, AWS, GCP | M.Sc. Computer Science (UFC) | Huawei Certified Instructor
 ```
 
-Por que funciona: lidera com o que você entrega, não com o cargo. Inclui os substantivos que
-recrutadores digitam na busca (Engenheiro de Dados, Data Engineer, Spark, Airflow, AWS, GCP)
-e duas credenciais raras (mestrado e instrutor certificado Huawei).
+Por que funciona: lidera com o que você entrega hoje (backend, dados e IA), não só com o cargo.
+Mantém os substantivos que recrutadores digitam na busca (Engenheiro de Software, Data Engineer,
+Backend, Spark, Airflow, AWS, GCP) e acrescenta os que o mercado passou a buscar em 2026 (FastAPI,
+PostgreSQL, RAG, LLM). Fecha com duas credenciais raras (mestrado e instrutor certificado Huawei).
 
 ---
 
@@ -124,7 +127,7 @@ Alguns resultados:
 • Best Paper nos Encontros Universitários UFC 2019, com visão computacional aplicada a impressões digitais para a segurança pública.
 • Instrutor Certificado da Huawei ICT Academy, formando turmas para a certificação HCIA-AI no acordo UFC, ASTEF e Huawei.
 
-O que eu resolvo: fontes de dados espalhadas, pipelines frágeis e APIs que não escalam. Integro múltiplas origens, modelo a camada analítica, automatizo o fluxo e entrego dados confiáveis para quem precisa decidir. No setor privado, fiz isso para o mercado financeiro (OSF Digital) e para agentes de IA de suporte jurídico (New Rizon).
+O que eu resolvo: fontes de dados espalhadas, pipelines frágeis e APIs que não escalam. Integro múltiplas origens, modelo a camada analítica, automatizo o fluxo e entrego dados confiáveis para quem precisa decidir. No setor privado, fiz isso para o mercado financeiro (OSF Digital), para agentes de IA jurídicos (New Rizon) e, hoje, para um SaaS de prevenção de churn em saúde, com RAG e LLM em produção.
 
 Comecei escrevendo meu nome na tela em Turbo Pascal 6.0. Nunca mais parei: 148 cursos e mais de 1.700 horas de formação depois, ainda me divirto aprendendo.
 
@@ -148,7 +151,7 @@ A few results:
 • Best Paper at UFC Encontros Universitários 2019, applying computer vision to fingerprint analysis for public safety.
 • Huawei Certified Academy Instructor, training cohorts for the HCIA-AI certification under the UFC, ASTEF and Huawei agreement.
 
-What I fix: scattered data sources, fragile pipelines and APIs that do not scale. I integrate sources, model the analytical layer, automate the flow and deliver reliable data to the people who decide. In the private sector I did this for financial services (OSF Digital) and for legal-support AI agents (New Rizon).
+What I fix: scattered data sources, fragile pipelines and APIs that do not scale. I integrate sources, model the analytical layer, automate the flow and deliver reliable data to the people who decide. In the private sector I did this for financial services (OSF Digital), for legal-support AI agents (New Rizon) and, today, for a churn-prevention SaaS in healthcare, with RAG and LLM features in production.
 
 I started by printing my name on screen in Turbo Pascal 6.0 and never stopped: 148 courses and 1,700+ hours of training later, I still enjoy learning.
 
@@ -189,17 +192,23 @@ competências para associar (campo "Competências" dentro da experiência) e uma
 - Período: mar 2026 até o momento
 - Local: **Florianópolis, Santa Catarina, Brasil** (corrigir: hoje está gravado como "Флорианополис, SC")
 - Modelo: `[ ]` Remoto / Híbrido / Presencial
+- Empresa: WeCogno (antiga DataRisk; a organização no GitHub ainda se chama datarisk-io). Registre como "WeCogno" e, se a página da empresa no LinkedIn ainda estiver como DataRisk, selecione-a para manter o logo vinculado.
+- Fonte dos números: histórico git de churn-ai (16 mar a 13 mai 2026) e datarisk-churnai-platform (1 jun a 25 ago 2026), contando só commits de autoria sua.
 
 ```
-[ ] Descrição do produto ou área em uma linha (o que a WeCogno faz e para quem).
-• Projeto e mantenho [ ] serviços backend e pipelines de dados em [ stack ] que atendem [ ] usuários/clientes.
-• Reduzi [ ] (tempo de processamento, custo, latência) em [ ]% ao [ ação ].
-• Integrei [ ] fontes de dados / APIs de terceiros em [ ] semanas.
-• Implantei [ ] (observabilidade, CI/CD, testes) que levou a cobertura de [ ]% e deploys [ ] vezes por semana.
+Plataforma SaaS de prevenção de churn para operadoras de planos de saúde: backend, pipeline de dados e camada de IA (RAG e LLM). Monorepo com FastAPI, SQLAlchemy 2.0 async, PostgreSQL 16 com pgvector, Airflow e React.
+• Entreguei 236 commits e 22 pull requests mergeados em 6 meses, cerca de 50 mil linhas adicionadas em dois repositórios (API inicial e plataforma).
+• Construí o backend do chat com RAG: ingestão de PDF e DOCX com chunking e embeddings em pgvector, histórico de conversas, prompts por tenant e respostas em streaming (SSE).
+• Implementei 29 endpoints da API de risco: listagem e detalhe de contas com health score, top drivers explicáveis via SHAP, timeline de eventos, estatísticas de membros, MRR e MRA em risco, novos críticos e evolução de críticos.
+• Apliquei isolamento multi-tenant em todos os repositórios (Row Level Security por tenant_id, ADR-009) e arquitetura explícita (DDD e hexagonal, ADR-001), com testes de arquitetura que travam a direção das dependências.
+• Implementei o loader Parquet com upsert no PostgreSQL do pipeline Medallion (Bronze, Silver, Gold) e 5 migrations dbmate, incluindo o contrato de carga de MRR e MRA.
+• Escrevi ou revisei 302 funções de teste (unitários, integração com banco real e E2E via Postman) e integrei ruff ao build Docker.
+• Adotei desenvolvimento orientado a especificação (SPDD) com Claude Code: 27 canvases REASONS revisados em PR antes do código e 38 commits de documentação técnica (ADRs, planos, revisões).
+• Prototipei um servidor MCP com RAG sobre FastAPI e uv workspaces para expor a base de conhecimento a agentes de IA.
 ```
 
-Competências: Python · Engenharia de Dados · APIs REST · AWS · Docker · CI/CD · `[ ]`
-Mídia: link do produto ou repositório público, se houver.
+Competências: Python · FastAPI · SQLAlchemy · PostgreSQL · pgvector · RAG · LLM · Apache Airflow · Docker · Engenharia de Dados · Arquitetura Hexagonal · Multi-tenancy · Claude Code · MCP
+Mídia: `[ ]` página pública do produto ou post de lançamento, se houver. Os repositórios são privados.
 
 ### 6.2 Fundação Cearense de Pesquisa e Cultura (FCPC) · Desenvolvedor Back-end
 

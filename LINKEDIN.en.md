@@ -34,22 +34,24 @@ scorecard and cleanup list live there and are not repeated here.
 
 ## 2. Headline (220 characters max)
 
-**Option A** (recommended, authority + opportunities):
+Updated Sep 2026 to reflect the current role at WeCogno (Software Engineer, RAG and LLM in production) while keeping "Data Engineer" searchable.
+
+**Option A** (recommended, authority + opportunities, 216 characters):
 
 ```
-Data Engineer & Backend Developer | I build pipelines and APIs that turn public and corporate data into decisions | Python, Spark, Airflow, AWS, GCP | M.Sc. Computer Science (UFC) | Huawei Certified Academy Instructor
+Software & Data Engineer | Backend, pipelines and AI (RAG, LLM) in production for SaaS and government | Python, FastAPI, PostgreSQL, Spark, Airflow, AWS, GCP | M.Sc. Computer Science (UFC) | Huawei HCIA-AI Instructor
 ```
 
-**Option B** (active job search):
+**Option B** (active job search, 219 characters):
 
 ```
-Data Engineer | Python, PySpark, Airflow, Databricks, AWS, GCP | 8 years of Big Data for government and financial services | M.Sc. Computer Science (UFC) | Huawei Certified Instructor | AI Agents and LLMs
+Backend & Data Engineer | Python, FastAPI, PostgreSQL, pgvector, Spark, Airflow, AWS, GCP | 8 years of Big Data and APIs for government, finance and healthcare | RAG and LLMs in production | M.Sc. Computer Science (UFC)
 ```
 
-**Option C** (backend-leaning):
+**Option C** (software-engineering leaning, 219 characters):
 
 ```
-Backend & Data Engineer | Spring Boot, Django, REST APIs and Big Data pipelines for government and enterprise | Python, Java, Spark, Airflow, AWS, GCP | M.Sc. Computer Science (UFC) | Huawei HCIA-AI Instructor
+Software Engineer (Backend, Data & AI) | APIs, pipelines and RAG/LLM in production for healthcare SaaS | Python, FastAPI, PostgreSQL, Spark, Airflow, AWS, GCP | M.Sc. Computer Science (UFC) | Huawei Certified Instructor
 ```
 
 ---
@@ -68,7 +70,7 @@ A few results:
 • Best Paper at UFC Encontros Universitários 2019, applying computer vision to fingerprint analysis for public safety.
 • Huawei Certified Academy Instructor, training cohorts for the HCIA-AI certification under the UFC, ASTEF and Huawei agreement.
 
-What I fix: scattered data sources, fragile pipelines and APIs that do not scale. I integrate sources, model the analytical layer, automate the flow and deliver reliable data to the people who decide. In the private sector I did this for financial services (OSF Digital) and for legal-support AI agents (New Rizon).
+What I fix: scattered data sources, fragile pipelines and APIs that do not scale. I integrate sources, model the analytical layer, automate the flow and deliver reliable data to the people who decide. In the private sector I did this for financial services (OSF Digital), for legal-support AI agents (New Rizon) and, today, for a churn-prevention SaaS in healthcare, with RAG and LLM features in production.
 
 I started by printing my name on screen in Turbo Pascal 6.0 and never stopped: 148 courses and 1,700+ hours of training later, I still enjoy learning.
 
@@ -101,16 +103,22 @@ Bullet format: `action verb + deliverable + number`. `[ ]` marks numbers you nee
 ### 5.1 WeCogno · Software Engineer
 
 - Mar 2026 to present · Florianópolis, Santa Catarina, Brazil · `[ ]` Remote / Hybrid / On-site
+- Employer: WeCogno (formerly DataRisk; the GitHub organization is still named datarisk-io). Enter it as "WeCogno" and, if the LinkedIn company page still shows DataRisk, pick that page so the logo stays linked.
+- Numbers come from the git history of churn-ai (Mar 16 to May 13, 2026) and datarisk-churnai-platform (Jun 1 to Aug 25, 2026), counting only commits you authored.
 
 ```
-[ ] One line on what WeCogno builds and for whom.
-• Design and maintain [ ] backend services and data pipelines in [ stack ] serving [ ] users/customers.
-• Cut [ ] (processing time, cost, latency) by [ ]% by [ action ].
-• Integrated [ ] data sources / third-party APIs in [ ] weeks.
-• Rolled out [ ] (observability, CI/CD, testing), reaching [ ]% coverage and [ ] deploys per week.
+Churn-prevention SaaS for health-plan operators: backend, data pipeline and AI layer (RAG and LLM). Monorepo with FastAPI, SQLAlchemy 2.0 async, PostgreSQL 16 with pgvector, Airflow and React.
+• Delivered 236 commits and 22 merged pull requests in 6 months, about 50,000 lines added across two repositories (initial API and platform).
+• Built the RAG chat backend: PDF and DOCX ingestion with chunking and pgvector embeddings, conversation history, per-tenant prompts and streaming responses (SSE).
+• Implemented 29 endpoints of the risk API: account listing and detail with health score, explainable top drivers from SHAP values, event timeline, member statistics, MRR and MRA at risk, new criticals and critical evolution.
+• Enforced multi-tenant isolation across all repositories (Row Level Security by tenant_id, ADR-009) and Explicit Architecture (DDD and hexagonal, ADR-001), with architecture tests that lock dependency direction.
+• Implemented the Parquet loader with PostgreSQL upsert for the Medallion pipeline (Bronze, Silver, Gold) and 5 dbmate migrations, including the MRR and MRA load contract.
+• Wrote or reviewed 302 test functions (unit, real-database integration and Postman E2E) and wired ruff into the Docker build.
+• Adopted specification-driven development (SPDD) with Claude Code: 27 REASONS canvases reviewed in PRs before any code, plus 38 technical documentation commits (ADRs, plans, reviews).
+• Prototyped an MCP server with RAG on FastAPI and uv workspaces to expose the knowledge base to AI agents.
 ```
 
-Skills: Python · Data Engineering · REST APIs · AWS · Docker · CI/CD · `[ ]`
+Skills: Python · FastAPI · SQLAlchemy · PostgreSQL · pgvector · RAG · LLM · Apache Airflow · Docker · Data Engineering · Hexagonal Architecture · Multi-tenancy · Claude Code · MCP
 
 ### 5.2 Fundação Cearense de Pesquisa e Cultura (FCPC) · Backend Developer
 
