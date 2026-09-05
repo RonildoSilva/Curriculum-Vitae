@@ -1,0 +1,5 @@
+Ronildo Silva é um profissional de dados, desenvolvedor backend e pesquisador de IA, com bacharelado e mestrado em Computação pela UFC. Possui experiência em projetos nacionais e internacionais, atuando como Engenheiro de Dados na SEPLAG-CE, apoiando a transformação digital do governo.
+
+Especialista em Big Data, Machine Learning e Process Mining, tem certificações do Google Cloud Skills e Huawei, além de experiência com AWS, Spring Boot, Python, TensorFlow, React e bancos de dados SQL/NoSQL. Trabalhou no Laboratório ÍRIS, OSF Global Digital, Insight Data Science Lab e iFactory Solutions, desenvolvendo soluções em IA, BI e infraestrutura de dados.
+
+Com fluência em inglês e conhecimento em espanhol, também tem experiência como instrutor e arquiteto de IA, focado na otimização de processos de negócio.
