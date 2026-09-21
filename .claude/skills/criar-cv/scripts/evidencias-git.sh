@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 # Conta evidências de entrega em repositórios git, filtrando por autor.
+# Para VERIFICAÇÃO interna (existe React? existe teste?), não para o CV:
+# contagens de commits, PRs e testes são métricas de atividade e não entram no currículo.
 # Uso: evidencias-git.sh [-a <padrao-autor>] <repo> [<repo>...]
 # Padrão de autor default: "ronildo" (casa nome e e-mail, sem distinguir maiúsculas).
 set -u

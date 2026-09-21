@@ -39,19 +39,23 @@ Leia `references/fontes.md` para saber onde cada fato mora. Em resumo:
 Use `grep -i` nas fontes para cada palavra-chave da vaga antes de decidir se uma competência
 existe. Se a palavra não aparece em nenhuma fonte, a competência provavelmente não existe.
 
-### 3. Buscar evidência real no git dos repositórios de trabalho
+### 3. Verificar no git dos repositórios de trabalho
 
 Os repositórios de trabalho ficam em `~/GithubProjects/` (WeCogno em `datarisk.io/`, pessoais
-em `RonildoSilva/`). Rode `scripts/evidencias-git.sh <repo> [<repo>...]` para obter, por
-repositório e só para commits do Ronildo: commits sem merge, PRs mergeados, funções de teste
-adicionadas, canvases criados e, em especial, arquivos de frontend tocados. Esse último número
-é o que separa "trabalhei num monorepo com React" de "entreguei React".
+em `RonildoSilva/`). Rode `scripts/evidencias-git.sh <repo> [<repo>...]` para ver, só para
+commits do Ronildo, em que linguagens e áreas ele de fato mexeu. O uso principal é responder
+perguntas binárias: existe entrega em React? Existe Elasticsearch? Ele escreveu testes? O número
+de arquivos de frontend tocados é o que separa "trabalhei num monorepo com React" de
+"entreguei React".
+
+Os números que o script devolve (commits, PRs, funções de teste) são para verificação interna
+e ficam em `aderencia.md`. Não vão para o CV. Contagem de commits e PRs é métrica de atividade,
+não de resultado: para um recrutador soa como quem está contando horas, e um engenheiro sênior
+lendo vai estranhar. No CV, o que entra é o que foi entregue e para quem serviu.
 
 Também vale checar uso de ferramentas de IA (`ls ~/.claude/projects`, `CLAUDE.md` e `.claude/`
-nos repos, `~/.gemini`, `~/.cursor`) quando a vaga pede isso. Cite só ferramentas com rastro.
-
-Quando o LINKEDIN.md já traz um número (commits, endpoints, testes), reconte. Os números
-envelhecem e o critério pode ter sido outro (com ou sem merges, dois ou três repos).
+nos repos, `~/.gemini`, `~/.cursor`) quando a vaga pede isso. Cite só ferramentas com rastro, e
+descreva o modo de uso (especificação revisada em PR, regras por repositório), não a quantidade.
 
 ### 4. Classificar cada requisito
 
@@ -62,7 +66,7 @@ quando o rastro é zero ou está a mais de cinco anos de distância em stack que
 
 ### 5. Escrever o CV
 
-Salve em `cvs/<AAAA-MM>-<empresa>-<cargo-curto>/cv.md`. Português se a vaga é em português,
+Salve em `cvs/<AAAA-MM>-<empresa>-<cargo-curto>/cv.md` (pasta ignorada pelo git, só local). Português se a vaga é em português,
 inglês se a vaga é em inglês. Estrutura:
 
 1. Nome, título de uma linha alinhado à vaga, subtítulo com a tese, contatos (e-mail, telefone,
@@ -70,10 +74,12 @@ inglês se a vaga é em inglês. Estrutura:
 2. Resumo de dois ou três parágrafos curtos. O primeiro responde ao perfil pedido pela vaga. O
    último nomeia, em uma frase, o principal ponto a desenvolver. Um gap assumido no resumo soa
    maduro; um gap descoberto na entrevista soa como omissão.
-3. Experiência, do mais recente ao mais antigo. Bullets no formato verbo, entrega, número. Só
-   coloque número que você recontou ou que está em documento. Reordene os bullets de cada cargo
-   para que o mais relevante à vaga venha primeiro. Cargos antigos ou pouco relevantes viram uma
-   linha.
+3. Experiência, do mais recente ao mais antigo. Cada bullet descreve uma entrega: o que foi
+   construído, com que técnica e para qual uso. Número só quando é resultado para o negócio ou
+   para o usuário (latência reduzida, volume atendido, erro menor que o baseline) e está em
+   documento. Nunca métricas de atividade: commits, PRs, linhas, quantidade de testes, quantidade
+   de endpoints, quantidade de documentos escritos. Reordene os bullets de cada cargo para que o
+   mais relevante à vaga venha primeiro. Cargos antigos ou pouco relevantes viram uma linha.
 4. Formação, publicações (com método quando a vaga é analítica), competências em tabela com
    coluna de nível (Sólido, Intermediário, Básico) e coluna de detalhe. A coluna de nível é o
    lugar para a honestidade: uma tecnologia com zero commits vai como Básico com a frase exata
@@ -93,13 +99,16 @@ registradas (localização, docência não documentada, métricas a completar).
 
 ### 7. Fechar
 
-Confira que `cvs/_raw/` continua ignorado pelo git e que nada da pasta gerada tem dado sensível
-além do que já está público nos PDFs do portfólio (este repositório é público). Responda ao
+Confira que `cvs/` continua ignorada pelo git (`git check-ignore cvs/`). Os currículos e as vagas
+são de uso pessoal e ficam só no disco; o repositório é público e o telefone e a análise de gaps
+não devem ir para lá. Responda ao
 usuário com o veredito, os dois ou três gaps principais e os caminhos dos arquivos.
 
 ## Regras de honestidade
 
-- Toda afirmação com número vem de recontagem ou de documento. Sem estimativa disfarçada.
+- Todo número no CV é resultado (métrica de modelo, ganho para o usuário, escala atendida) e vem
+  de documento. Métricas de atividade (commits, PRs, testes, endpoints) não entram no CV, mesmo
+  quando verdadeiras.
 - Uma tecnologia entra como "Sólido" só com entregas próprias e recentes. Convivência em
   monorepo, curso ou leitura de código é "Básico", e o CV diz exatamente o que foi feito.
 - Não cite ferramenta, empresa ou projeto sem rastro em fonte. Se a vaga cita um exemplo
@@ -115,5 +124,6 @@ usuário com o veredito, os dois ou três gaps principais e os caminhos dos arqu
 - `references/fontes.md`: mapa detalhado de onde cada fato mora e como extrair.
 - `scripts/evidencias-git.sh`: contagem de commits, PRs, testes, canvases e arquivos de
   frontend por repositório, filtrando pelo autor.
-- Exemplo completo: `cvs/2026-09-jusbrasil-fullstack-search-eval/` (vaga fullstack com perfil
-  analítico, gap em React assumido no resumo e na tabela de competências).
+- Exemplo completo, só no disco local: `cvs/2026-09-jusbrasil-fullstack-search-eval/` (vaga fullstack com perfil
+  analítico, gap em React assumido no resumo e na tabela de competências). A primeira versão
+  desse CV trazia contagem de commits e PRs; o usuário rejeitou, e a regra acima veio daí.
