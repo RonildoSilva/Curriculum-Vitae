@@ -68,4 +68,11 @@ desktop.ini
 *.pyc
 .venv/
 venv/
-cvs/
+# cvs/: só o banco de perguntas sem dado pessoal é público
+cvs/*
+!cvs/perguntas-entrevista.md
+
+# Currículos gerados (contêm telefone; repositório é público). Só as ferramentas são versionadas
+dist/*
+!dist/build.sh
+!dist/cv.css

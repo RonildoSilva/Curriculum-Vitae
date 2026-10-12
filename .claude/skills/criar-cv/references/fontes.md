@@ -14,7 +14,9 @@
 | Skills declaradas no LinkedIn | `_raw/linkedin-perfil-atual.md` linha "Competências (100)" | `grep -i <tecnologia>` | Se a tecnologia não está nem aí, tratar como inexistente até prova em git. |
 | Entregas na WeCogno | `~/GithubProjects/datarisk.io/{churn-ai,datarisk-churnai-platform,app-score-bet}` | `scripts/evidencias-git.sh`; `git log --author=ronildo -i --format='%s'` para ler o que foi entregue | Autor: `ronildo.silva@datarisk.io`. Canvases em `docs/spdd/canvases/`. Os assuntos dos commits dizem o que foi construído; as contagens só verificam. |
 | Uso de ferramentas de IA | `~/.claude/projects/` (um diretório por projeto), `CLAUDE.md` e `.claude/` nos repos, `~/.gemini`, `~/.cursor` | `ls`, `find -maxdepth 3 -name CLAUDE.md` | Em set 2026: Claude Code em 22 projetos, Gemini CLI presente, Cursor ausente. |
-| Vagas e CVs gerados | `cvs/_raw/` e `cvs/<vaga>/` | leitura direta | Toda a pasta `cvs/` é ignorada pelo git. Manter assim: o repo é público. |
+| Casos reais para entrevista | `cvs/perguntas-entrevista.md` | leitura direta | Respostas já validadas pelo usuário. Big Data Ceará: cruzamento do CadÚnico (Proteção Social) com o Ceará Digital (SEPLAG) para o Criança Feliz; bases anonimizadas sem relação 1:1, hash do CPF como chave comum, particionamento, data drift por timestamp; 60% menos armazenamento e consultas 3x mais rápidas. Pode virar bullet do CV. |
+| Vagas e CVs gerados | `cvs/_raw/` e `cvs/<vaga>/` | leitura direta | Ignorados pelo git (`cvs/*`). A única exceção é `cvs/perguntas-entrevista.md`, que não tem empresa nem salário. O repo é público. |
+| PDF do currículo | `dist/build.sh`, `dist/cv.css` | `dist/build.sh <arquivo>.md` | Versionados. Os `.md`/`.pdf` gerados em `dist/` são ignorados (têm telefone). |
 
 ## Currículos anteriores para comparar tom
 
@@ -24,5 +26,5 @@
 
 ## Fatos conhecidos sem documento oficial (confirmar com o usuário antes de usar)
 
-- Docência atual em instituição privada (aparece em `~/.claude/projects` como `docencia-unicatolica`, `LinguagensWEB`, `Estágio`). Não está no LinkedIn nem no Lattes.
+- Docência atual: professor de ensino superior na UniCatólica de Quixadá desde fev 2026 (CLT, 12 h/semana). Disciplinas de web, redes, arquitetura de computadores e IA; orienta 8 TCCs e estágio supervisionado em web; coordenou o projeto de pesquisa GPISE sobre evasão em SI (Radar Acadêmico). Informado pelo usuário em set/out 2026. Não está no LinkedIn nem no Lattes; não citar salário.
 - Detalhes técnicos de FCPC, New Rizon e ExACTa: só o texto curto do LinkedIn.

@@ -1,6 +1,6 @@
 ---
 name: criar-cv
-description: Gera um currículo em Markdown sob medida para uma vaga específica, a partir das fontes deste repositório (LINKEDIN.md, exports do LinkedIn em _raw/, PDFs em portfolio/, catálogo) e de evidência real no histórico git dos repositórios de trabalho. Use sempre que o usuário pedir um CV, currículo, resume ou "candidatura" para uma vaga, colar uma descrição de vaga, apontar um arquivo em cvs/_raw/, ou pedir para "adaptar o currículo" a uma empresa. Também use quando pedirem uma análise de aderência (fit, gap, "tenho chance?") entre o perfil e uma vaga, mesmo sem pedir o CV.
+description: Gera um currículo em Markdown sob medida para uma vaga específica, a partir das fontes deste repositório (LINKEDIN.md, exports do LinkedIn em _raw/, PDFs em portfolio/, catálogo) e de evidência real no histórico git dos repositórios de trabalho. Use sempre que o usuário pedir um CV, currículo, resume ou "candidatura" para uma vaga, colar uma descrição de vaga, apontar um arquivo em cvs/_raw/, ou pedir para "adaptar o currículo" a uma empresa. Também use quando pedirem uma análise de aderência (fit, gap, "tenho chance?") entre o perfil e uma vaga, mesmo sem pedir o CV, quando colarem perguntas de triagem ou de entrevista de uma vaga ("qual seu nível em...", "descreva uma situação...", pretensão salarial) e quando pedirem o PDF de um currículo.
 ---
 
 # Criar CV sob medida para uma vaga
@@ -89,6 +89,10 @@ inglês se a vaga é em inglês. Estrutura:
 Duas páginas quando impresso. Sem adjetivos de personalidade ("apaixonado", "proativo"). Sem
 travessões e sem parênteses explicativos longos; use frases curtas.
 
+Para gerar o PDF, copie o `cv.md` para `dist/` e rode `dist/build.sh <arquivo>.md` (pandoc com
+`dist/cv.css` e Chrome headless; o PDF sai ao lado do `.md`). Só `build.sh` e `cv.css` são
+versionados em `dist/`: os `.md` e `.pdf` gerados têm telefone e ficam fora do git.
+
 ### 6. Escrever a análise de aderência
 
 Salve em `aderencia.md` na mesma pasta. Contém: veredito em um parágrafo; tabela requisito,
@@ -97,11 +101,31 @@ fatos sem documento, ferramentas sem rastro); e um parágrafo de como jogar o pr
 candidatura. Esse arquivo é para o Ronildo, não para o recrutador. É onde as dúvidas ficam
 registradas (localização, docência não documentada, métricas a completar).
 
-### 7. Fechar
+### 7. Perguntas de triagem e entrevista
 
-Confira que `cvs/` continua ignorada pelo git (`git check-ignore cvs/`). Os currículos e as vagas
-são de uso pessoal e ficam só no disco; o repositório é público e o telefone e a análise de gaps
-não devem ir para lá. Responda ao
+Quando a vaga traz perguntas (formulário de candidatura, roteiro de entrevista), responda no banco
+de perguntas, que é alimentado a cada vaga:
+
+- `cvs/perguntas-entrevista.md` (**público**, versionado): uma seção `## Vaga: <cargo>` com as
+  perguntas e respostas técnicas. Só o cargo, nunca empresa, link, status ou salário. Respostas
+  que se repetem entre vagas sobem para **Respostas reutilizáveis**, no fim do arquivo.
+- `cvs/perguntas-entrevista.privado.md` (ignorado pelo git): a mesma `## Vaga:` com empresa, data,
+  link, status e a resposta de pretensão salarial.
+
+Para cada pergunta: versão de formulário (até ~1.200 caracteres) e, quando a pergunta pede uma
+história ("descreva uma situação"), um roteiro STAR para a entrevista. Antes de escrever, procure
+no arquivo uma resposta que já exista para pergunta parecida e reaproveite. Casos reais que o
+usuário já contou estão lá (ex.: cruzamento CadÚnico × Ceará Digital no Big Data Ceará). Quando o
+caso não está em nenhuma fonte, não invente: deixe um rascunho com `[ ]` e pergunte os detalhes
+(o que se viu, causa raiz, correção, número de resultado). Salário nunca vai sem o usuário informar
+o valor.
+
+### 8. Fechar
+
+Confira o que o git enxerga em `cvs/` e `dist/` (`git status --short --untracked-files=all cvs dist`).
+Só `cvs/perguntas-entrevista.md`, `dist/build.sh` e `dist/cv.css` podem aparecer; currículos,
+vagas, análises de aderência e a parte privada das perguntas ficam só no disco, porque o
+repositório é público e o telefone, os gaps e o salário não devem ir para lá. Responda ao
 usuário com o veredito, os dois ou três gaps principais e os caminhos dos arquivos.
 
 ## Regras de honestidade
@@ -122,6 +146,9 @@ usuário com o veredito, os dois ou três gaps principais e os caminhos dos arqu
 ## Referências
 
 - `references/fontes.md`: mapa detalhado de onde cada fato mora e como extrair.
+- `cvs/perguntas-entrevista.md`: banco de perguntas e respostas por vaga, com casos reais já
+  validados pelo usuário.
+- `dist/build.sh` e `dist/cv.css`: geração do PDF a partir do Markdown.
 - `scripts/evidencias-git.sh`: contagem de commits, PRs, testes, canvases e arquivos de
   frontend por repositório, filtrando pelo autor.
 - Exemplo completo, só no disco local: `cvs/2026-09-jusbrasil-fullstack-search-eval/` (vaga fullstack com perfil

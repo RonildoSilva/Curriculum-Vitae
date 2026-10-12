@@ -204,7 +204,7 @@ Plataforma SaaS de prevenção de churn para operadoras de planos de saúde: bac
 • Implementei o loader Parquet com upsert no PostgreSQL do pipeline Medallion (Bronze, Silver, Gold) e 5 migrations dbmate, incluindo o contrato de carga de MRR e MRA.
 • Escrevi ou revisei 302 funções de teste (unitários, integração com banco real e E2E via Postman) e integrei ruff ao build Docker.
 • Adotei desenvolvimento orientado a especificação (SPDD) com Claude Code: 27 canvases REASONS revisados em PR antes do código e 38 commits de documentação técnica (ADRs, planos, revisões).
-• Prototipei um servidor MCP com RAG sobre FastAPI e uv workspaces para expor a base de conhecimento a agentes de IA.
+• Estendi um protótipo de servidor MCP com RAG (FastAPI, uv workspaces), criado pela equipe, com o domínio do produto, para expor a base de conhecimento a agentes de IA.
 ```
 
 Competências: Python · FastAPI · SQLAlchemy · PostgreSQL · pgvector · RAG · LLM · Apache Airflow · Docker · Engenharia de Dados · Arquitetura Hexagonal · Multi-tenancy · Claude Code · MCP
@@ -512,6 +512,17 @@ pequenas de UFC, Huawei ICT Academy e Google Cloud no canto inferior direito (ar
 ---
 
 ## 11. Formação acadêmica
+
+### Centro Universitário Anhanguera (UNIPDS Educação) · Pós-graduação lato sensu em Engenharia de Software em IA Aplicada
+
+- set 2026 a set 2027 (em andamento) · 100% online · 480 h
+
+```
+Especialização em engenharia de software para sistemas com IA generativa, em 12 módulos: fundamentos de LLMs, APIs de IA generativa, Model Context Protocol (MCP), agentes autônomos (LangGraph, memória, human-in-the-loop, guardrails), IA para DevOps, arquitetura de sistemas com IA (model router, semantic cache, custo por tier), dados e fine-tuning, segurança e governança (LGPD) e capstone com micro-SaaS.
+Reconhecida pelo MEC. Início em 24/09/2026, conclusão prevista para 23/09/2027.
+```
+
+Competências: LLMs · Agentes de IA · MCP · LangGraph · Arquitetura de Software · Governança de IA
 
 ### Universidade Federal do Ceará · Mestrado em Ciência da Computação
 

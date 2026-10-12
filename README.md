@@ -21,6 +21,7 @@ e com o documento original anexado, tudo que sustenta esse currículo.
 
 | | | |
 |---|---|---|
+| **Pós-graduação em Engenharia de Software em IA Aplicada** | Centro Universitário Anhanguera (UNIPDS) | 480 h · 100% online · 2026–2027, em andamento |
 | **Mestre em Computação** | Universidade Federal do Ceará | [diploma](portfolio/01-formacao-academica/diploma-mestrado-computacao-ufc.pdf) · 2024 |
 | **Bacharel em Ciência da Computação** | Universidade Federal do Ceará | [diploma](portfolio/01-formacao-academica/diploma-bacharelado-ciencia-da-computacao-ufc.pdf) · 2020 |
 | **Técnico em Informática** | IFCE | 2013 |

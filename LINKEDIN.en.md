@@ -115,7 +115,7 @@ Churn-prevention SaaS for health-plan operators: backend, data pipeline and AI l
 • Implemented the Parquet loader with PostgreSQL upsert for the Medallion pipeline (Bronze, Silver, Gold) and 5 dbmate migrations, including the MRR and MRA load contract.
 • Wrote or reviewed 302 test functions (unit, real-database integration and Postman E2E) and wired ruff into the Docker build.
 • Adopted specification-driven development (SPDD) with Claude Code: 27 REASONS canvases reviewed in PRs before any code, plus 38 technical documentation commits (ADRs, plans, reviews).
-• Prototyped an MCP server with RAG on FastAPI and uv workspaces to expose the knowledge base to AI agents.
+• Extended a team-built MCP server prototype with RAG (FastAPI, uv workspaces) with the product domain, to expose the knowledge base to AI agents.
 ```
 
 Skills: Python · FastAPI · SQLAlchemy · PostgreSQL · pgvector · RAG · LLM · Apache Airflow · Docker · Data Engineering · Hexagonal Architecture · Multi-tenancy · Claude Code · MCP
@@ -380,6 +380,15 @@ Check the mobile crop before publishing.
 ---
 
 ## 9. Education
+
+### Anhanguera University Center (UNIPDS Education) · Graduate Specialization (lato sensu) in Software Engineering for Applied AI
+
+- Sep 2026 to Sep 2027 (in progress) · 100% online · 480 h
+
+```
+Specialization in software engineering for generative-AI systems, in 12 modules: LLM fundamentals, generative-AI APIs, Model Context Protocol (MCP), autonomous agents (LangGraph, memory, human-in-the-loop, guardrails), AI for DevOps, architecture of AI systems (model router, semantic cache, cost per tier), data and fine-tuning, security and governance (LGPD, the Brazilian data-protection law) and a micro-SaaS capstone.
+Recognized by the Brazilian Ministry of Education (MEC). Started 24 Sep 2026, expected completion 23 Sep 2027.
+```
 
 ### Federal University of Ceará (UFC) · M.Sc. in Computer Science
 
