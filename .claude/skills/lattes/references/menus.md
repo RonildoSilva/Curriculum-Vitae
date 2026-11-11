@@ -10,6 +10,32 @@ Atalho que vale para qualquer item: a caixa **"O que você quer registrar?"**, n
 direita da página inicial do editor, busca o formulário pelo nome (ex.: "Apresentação de
 trabalho e palestra").
 
+## Estrutura dos formulários
+
+Conferida nas capturas de 11/11/2026 (07:06–07:10).
+
+- **Formulários de produção** (ex.: Artigo aceito para publicação) abrem com abas à esquerda:
+  D.O.I · Dados gerais · Detalhamento · Autores · Palavras-chave · Áreas · Setores · Outras
+  informações · Traduções · Visibilidade. A aba D.O.I tem um botão que puxa os dados da
+  produção a partir do DOI.
+- Em **Dados gerais** de toda produção: *"É um dos 10 trabalhos mais relevantes de sua
+  produção?"* e *"É uma produção para educação e popularização de CeT?"* (sim/não). A marcação
+  de popularização é feita aqui, no próprio item.
+- **Participação em eventos** tem só Dados gerais, Traduções e Visibilidade. Campos: Forma de
+  participação (Convidado / Participante / Ouvinte), Tipo da apresentação/participação, Nome do
+  evento (com busca), Ano, Classificação (Internacional / Nacional / Regional / Local),
+  Natureza (Congresso, ...), Cidade, País, Home page do trabalho (URL), Título da apresentação
+  (só convidado e participante), popularização de CeT. Não tem instituição promotora nem
+  carga horária.
+- **Programa de computador registrado** pede "Instituição onde foi depositado" (INPI e
+  escritórios estrangeiros) e número. Só para registro formal; repositório aberto vai em
+  Programa de computador sem registro.
+- **Programa de computador sem registro** tem campos obrigatórios que só aparecem ao salvar:
+  "Qual o potencial de inovação?", "Instituição(ções) financiadora(s)", "Linguagens", e a
+  lista de autores se chama **inventores** e precisa incluir o dono do currículo
+  (mensagens de validação de 11/11/2026).
+- A aba **Traduções** tem o link "Clique aqui para repetir os textos já informados".
+
 ## Dados gerais
 
 - Identificação · *ORCID e outros identificadores, nome em citações*
@@ -101,9 +127,10 @@ projeto. Não é um lugar diferente de cadastro.
 
 ## Educação e Popularização de C&T
 
-Também é atalho: lista artigos, anais, apresentações, software, cursos ministrados, material
-didático, entrevistas, eventos, redes sociais e outras produções, para marcar o item como de
-divulgação científica. Use para o pacote aberto do Zenodo e para palestras ao público.
+Também é atalho: lista os itens já marcados como de divulgação científica (artigos, anais,
+apresentações, software, cursos ministrados, material didático, entrevistas, eventos, redes
+sociais). A marcação em si é a pergunta *"É uma produção para educação e popularização de
+CeT?"* dentro do formulário de cada item.
 
 ## Eventos
 

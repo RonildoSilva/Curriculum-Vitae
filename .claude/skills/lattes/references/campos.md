@@ -32,6 +32,12 @@ exatos dos menus estão em `menus.md`.
   é cadastrar o mesmo artigo duas vezes em Produção bibliográfica.
 - **Vínculo de produção a projeto:** depois de cadastrar o projeto, vincular cada produção a
   ele. É o que faz o projeto mostrar "Número de produções" e conta em relatórios de agência.
+- **Perguntas de todo formulário de produção:** "10 trabalhos mais relevantes" (reservar para
+  artigos em periódico e anais completos; são 10 no total) e "educação e popularização de CeT"
+  (sim para código e dados abertos, palestra ao público, material didático).
+- **Trabalho aceito em congresso, anais ainda não publicados:** não usar *Artigos aceitos para
+  publicação* (é para periódico). Registrar apresentação e participação já; o trabalho em anais
+  entra quando os anais saírem.
 - **Campos `[ ]`:** quando o fato não está em nenhuma fonte, deixe `[ ]` no guia e diga ao
   usuário de onde tirar (ficha catalográfica dos anais, contrato, grade do curso).
 
@@ -57,7 +63,7 @@ Caminho: **Produções → Produção técnica**
 
 | Tipo | Quando | Campos críticos |
 | --- | --- | --- |
-| Programa de computador sem registro | Repositório público, pacote Zenodo | home page, DOI, finalidade, plataforma, ambiente, disponibilidade (Irrestrita) |
+| Programa de computador sem registro | Repositório público, pacote Zenodo | home page, DOI, finalidade, plataforma, ambiente, disponibilidade (Irrestrita); obrigatórios: **linguagens**, **inventores** (incluindo você), **instituição financiadora** (sem fomento: a instituição onde foi feito) e **potencial de inovação** (código de pesquisa: o nível mais baixo, sem inflar) |
 | Cursos de curta duração ministrados | Oficinas, minicursos | carga horária, participação (Docente) |
 | Relatório de pesquisa | Relatório técnico entregue a financiador | — |
 

@@ -61,8 +61,18 @@ palestra" o deixa perdido. Formato de cada item:
 3. `[ ]` no lugar de cada valor que nenhuma fonte tem, dizendo onde achar
 4. A nota de vinculação quando o item pertence a um projeto
 
-Se o usuário trouxer capturas de tela do editor (`_raw/lattes/src/`), leia-as e atualize
-`references/menus.md` quando algum nome tiver mudado. Não copie as capturas para a skill: elas
+Se o usuário trouxer capturas de tela do editor (`_raw/lattes/src/`), leia todas e use-as de
+três formas:
+
+- **Menus e formulários:** atualize `references/menus.md` (nomes de menu, abas e campos de cada
+  formulário) quando algo divergir ou for novo. Ajuste o guia para listar só campos que o
+  formulário realmente tem.
+- **Progresso:** formulário preenchido na captura vira item marcado no checklist, com a nota
+  "preenchido em DD/MM (captura HH-MM-SS)" e os valores conferidos. Ainda não é validação: ela
+  só vem com o PDF novo.
+- **Desvio:** formulário errado aberto (ex.: *Programa de Computador Registrado* para um pacote
+  Zenodo, *Artigos aceitos para publicação* para trabalho de congresso) vira um aviso explícito
+  no item correspondente do guia, dizendo onde é o certo e por quê. Não copie as capturas para a skill: elas
 mostram a foto do perfil e a skill é versionada num repositório público.
 
 Ordene por peso em avaliação: produção bibliográfica, orientações, projetos, produção
@@ -80,6 +90,12 @@ item a item do checklist:
 
 - **Autoria:** ordem e nomes iguais aos do documento publicado; orientandos como coautores.
 - **Natureza:** "Completo" só com artigo integral nos anais.
+- **Formulário certo:** trabalho de congresso não entra em *Artigos aceitos para publicação*
+  (é para periódico); software sem registro no INPI não entra em *Programa de Computador
+  Registrado*.
+- **Marcações de Dados gerais:** "10 mais relevantes" só para artigos em periódico e anais
+  completos (o limite é 10); "popularização de CeT" sim para código e dados abertos, palestra
+  ao público e material didático, não para artigo científico.
 - **DOI no item certo:** DOI do Zenodo no software, não no artigo.
 - **Coerência de datas:** produção no ano do evento; vínculo e atividades sem sobreposição
   impossível; orientação concluída só com ano de conclusão.
