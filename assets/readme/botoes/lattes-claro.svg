@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="116" height="40" viewBox="0 0 116 40" role="img" aria-label="Lattes">
+<rect x="0.75" y="0.75" width="114.5" height="38.5" rx="9" fill="#ffffff" stroke="#e6e2db" stroke-width="1.5"/>
+<path d="M21,12.5 h9 l4,4 v10 h-13 z" fill="none" stroke="#1c5d4a" stroke-width="1.6" stroke-linejoin="round"/><rect x="24" y="18.5" width="7" height="1.6" rx=".8" fill="#1c5d4a"/><rect x="24" y="22.0" width="7" height="1.6" rx=".8" fill="#1c5d4a"/>
+<text x="44" y="25.5" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#1c1a17">Lattes</text>
+</svg>

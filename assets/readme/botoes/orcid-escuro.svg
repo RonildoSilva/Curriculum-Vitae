@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="107" height="40" viewBox="0 0 107 40" role="img" aria-label="ORCID">
+<rect x="0.75" y="0.75" width="105.5" height="38.5" rx="9" fill="#1b1e23" stroke="#2b3038" stroke-width="1.5"/>
+<circle cx="27" cy="19.5" r="7.5" fill="#5fbfa1"/><text x="27" y="23.1" text-anchor="middle" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="9.5" font-weight="700" fill="#1b1e23">iD</text>
+<text x="44" y="25.5" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#eceae6">ORCID</text>
+</svg>

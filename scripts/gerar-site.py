@@ -69,6 +69,11 @@ def main():
     with open(HTML, "w", encoding="utf-8") as f:
         f.write(novo)
 
+    # mantém a faixa de números do README em dia com o catálogo
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("identidade", os.path.join(RAIZ, "scripts", "gerar-identidade.py"))
+    mod = importlib.util.module_from_spec(spec); spec.loader.exec_module(mod); mod.main()
+
     print(f"catálogo embutido : {dados['total']} itens · index.html com {len(novo)/1024:.0f} KB")
     print(f"logos encontradas : {len(dados['logos'])} de {len(emissores)} emissores")
     if faltando:

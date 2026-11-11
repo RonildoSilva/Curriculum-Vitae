@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="227" height="40" viewBox="0 0 227 40" role="img" aria-label="Portfólio navegável">
+<rect x="0.75" y="0.75" width="225.5" height="38.5" rx="9" fill="#1c5d4a" stroke="#1c5d4a" stroke-width="1.5"/>
+<rect x="20" y="12.5" width="6" height="6" rx="1.2" fill="#fbfaf8"/><rect x="20" y="20.5" width="6" height="6" rx="1.2" fill="#fbfaf8"/><rect x="28" y="12.5" width="6" height="6" rx="1.2" fill="#fbfaf8"/><rect x="28" y="20.5" width="6" height="6" rx="1.2" fill="#fbfaf8"/>
+<text x="44" y="25.5" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#fbfaf8">Portfólio navegável</text>
+</svg>

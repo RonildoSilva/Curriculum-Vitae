@@ -1,6 +1,19 @@
-# Ronildo Oliveira da Silva
+<div align="center">
 
-**Mestre em Computação (UFC)** · Engenheiro e cientista de dados · Instrutor certificado Huawei
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/readme/banner-escuro.svg">
+  <img alt="Ronildo Oliveira da Silva — Mestre em Computação (UFC), engenheiro e cientista de dados, professor na UniCatólica e instrutor certificado Huawei" src="assets/readme/banner-claro.svg" width="100%">
+</picture>
+
+</div>
+
+<p align="center">
+  <a href="https://ronildosilva.github.io/Curriculum-Vitae/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/botoes/portfolio-escuro.svg"><img alt="Portfólio navegável" src="assets/readme/botoes/portfolio-claro.svg" height="40"></picture></a>
+  <a href="https://www.linkedin.com/in/ronildooliveira"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/botoes/linkedin-escuro.svg"><img alt="LinkedIn" src="assets/readme/botoes/linkedin-claro.svg" height="40"></picture></a>
+  <a href="http://lattes.cnpq.br/1445392245409691"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/botoes/lattes-escuro.svg"><img alt="Lattes" src="assets/readme/botoes/lattes-claro.svg" height="40"></picture></a>
+  <a href="https://orcid.org/0009-0008-4629-117X"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/botoes/orcid-escuro.svg"><img alt="ORCID" src="assets/readme/botoes/orcid-claro.svg" height="40"></picture></a>
+  <a href="https://doi.org/10.5281/zenodo.23516272"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/botoes/zenodo-escuro.svg"><img alt="Zenodo" src="assets/readme/botoes/zenodo-claro.svg" height="40"></picture></a>
+</p>
 
 Depois que consegui fazer uma aplicação escrever meu nome na tela, em Turbo Pascal 6.0,
 soube que era isso que eu queria estudar. Vieram o técnico em informática no IFCE, a
@@ -11,13 +24,12 @@ Hoje trabalho com aprendizado de máquina aplicado — mineração de processos,
 computacional e engenharia de dados em nuvem. Este repositório reúne, em um só lugar
 e com o documento original anexado, tudo que sustenta esse currículo.
 
-### 🔗 **[Abrir o portfólio navegável →](https://ronildosilva.github.io/Curriculum-Vitae/)**
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/readme/numeros-escuro.svg">
+  <img alt="Totais do portfólio, calculados de data/catalogo.json" src="assets/readme/numeros-claro.svg" width="100%">
+</picture>
 
-`246 documentos` · `25 instituições` · `1.773 horas` · `2012–2026`
-
----
-
-## Formação
+<h2><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/secoes/formacao-escuro.svg"><img alt="Formação" src="assets/readme/secoes/formacao-claro.svg" width="100%"></picture></h2>
 
 | | | |
 |---|---|---|
@@ -29,7 +41,7 @@ e com o documento original anexado, tudo que sustenta esse currículo.
 Aprovado no [POSCOMP 2019](portfolio/01-formacao-academica/poscomp-exame-nacional-pos-graduacao-em-computacao.pdf) (SBC)
 e no processo seletivo de doutorado em Ciência da Computação pela UFC.
 
-## Certificações
+<h2><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/secoes/certificacoes-escuro.svg"><img alt="Certificações" src="assets/readme/secoes/certificacoes-claro.svg" width="100%"></picture></h2>
 
 | Certificação | Emissor | Ano |
 |---|---|---|
@@ -43,14 +55,17 @@ e no processo seletivo de doutorado em Ciência da Computação pela UFC.
 Mais os preparatórios oficiais para as provas **Google Cloud Associate Cloud Engineer**
 e **Professional Data Engineer** — [ver todas](portfolio/03-certificacoes/).
 
-## Produção científica
+<h2><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/secoes/producao-cientifica-escuro.svg"><img alt="Produção científica" src="assets/readme/secoes/producao-cientifica-claro.svg" width="100%"></picture></h2>
 
+- **Da Complexidade do Processo à Trajetória de Presença: Sinais de Mineração de Processos Educacionais para um Radar de Evasão no Ensino Superior** — trabalho apresentado no **21º Congresso Brasileiro de Sistemas** (Uni-FACEF, 2026), com os orientandos Francisca Bianca da Silva e Isaac da Silva Viana · [certificado de apresentação](portfolio/04-producao-cientifica/certificado-apresentacao-cbs-2026-radar-de-evasao.pdf) · [código e dados de reprodução (Zenodo, DOI 10.5281/zenodo.23516272)](https://doi.org/10.5281/zenodo.23516272)
 - **[Predição de Tempo Restante para Conclusão de Processos de Negócio Utilizando Aprendizado Profundo](portfolio/04-producao-cientifica/predicao-de-tempo-restante-em-processos-de-negocio-sbbd-2023.pdf)** — artigo completo, **SBBD 2023** (38º Simpósio Brasileiro de Bancos de Dados) · [certificado de apresentação](portfolio/04-producao-cientifica/certificado-apresentacao-sbbd-2023.pdf)
 - **[Análise de Extratores e Matchers de Minúcias em Impressões Digitais](portfolio/04-producao-cientifica/analise-de-extratores-e-matchers-de-minucias-em-impressoes-digitais.pdf)** — 🏆 **Best Paper**, [Encontros Universitários UFC 2019](portfolio/04-producao-cientifica/encontros-universitarios-2019-best-paper.pdf)
 - [Proposta de Melhoria na Detecção de Minúcias em Impressões Digitais Escaneadas pelo NBIS](portfolio/04-producao-cientifica/proposta-de-melhoria-na-deteccao-de-minucias-pelo-nbis.pdf) — 2018
 - [Reconhecimento de Textos Manuscritos Através de Técnicas de Aprendizado de Máquina](portfolio/04-producao-cientifica/reconhecimento-de-textos-manuscritos-com-aprendizado-de-maquina.pdf) — 2017
 
-## Docência
+<h2><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/secoes/docencia-escuro.svg"><img alt="Docência" src="assets/readme/secoes/docencia-claro.svg" width="100%"></picture></h2>
+
+Professor de ensino superior no **Centro Universitário Católica de Quixadá (UniCatólica)** desde 2026, nas disciplinas de desenvolvimento web, redes, arquitetura de computadores e IA. Orienta TCCs e estágio supervisionado e coordena o projeto de pesquisa **GPISE / Radar Acadêmico**, sobre evasão no ensino superior, que gerou com dois orientandos o artigo do [21º CBS](portfolio/04-producao-cientifica/certificado-apresentacao-cbs-2026-radar-de-evasao.pdf) e o [pacote aberto de código e dados](https://doi.org/10.5281/zenodo.23516272).
 
 Instrutor certificado da **Huawei ICT Academy**, formando alunos para a certificação
 HCIA-AI sob o [acordo de parceria UFC / ASTEF / Huawei](portfolio/05-docencia/plano-de-trabalho-acordo-ufc-astef-huawei.pdf).
@@ -60,7 +75,7 @@ Monitor na UFC — Campus Quixadá em [Fundamentos de Programação](portfolio/0
 [Estrutura de Dados](portfolio/05-docencia/programa-de-monitoria-de-estrutura-de-dados-e-estrutura-de-dados-avancada.pdf),
 além de [estágio em docência](portfolio/05-docencia/relatorio-estagio-em-docencia.pdf) na pós-graduação.
 
-## Pesquisa
+<h2><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/secoes/pesquisa-escuro.svg"><img alt="Pesquisa" src="assets/readme/secoes/pesquisa-claro.svg" width="100%"></picture></h2>
 
 Bolsista em projetos de IA aplicada à segurança pública e à saúde:
 
@@ -69,20 +84,20 @@ Bolsista em projetos de IA aplicada à segurança pública e à saúde:
 - [Modelos de Machine Learning para Caracterização de Biossinais](portfolio/06-projetos-pesquisa/projeto-de-pesquisa-machine-learning-para-biossinais.pdf)
 - [Análise de Texto em Redes Sociais usando CLS, MTL e AutoML](portfolio/06-projetos-pesquisa/projeto-de-pesquisa-analise-de-texto-em-redes-sociais-usando-cls-mtl-automl.pdf)
 
-## Idiomas
+<h2><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/secoes/idiomas-escuro.svg"><img alt="Idiomas" src="assets/readme/secoes/idiomas-claro.svg" width="100%"></picture></h2>
 
 **Inglês — C2** ([EF English Live, Upper Advanced](portfolio/02-idiomas/ef-level-16-upper-advanced-cefr-level-c2.pdf)),
 com [TOEFL ITP](portfolio/02-idiomas/toefl-itp-declaracao-isf.pdf) pelo programa Idiomas sem Fronteiras
-e formação continuada na Berlitz. [Ver os 26 certificados](portfolio/02-idiomas/).
+e formação continuada na Berlitz. [Ver os 23 certificados](portfolio/02-idiomas/).
 
-## Formação continuada
+<h2><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/secoes/formacao-continuada-escuro.svg"><img alt="Formação continuada" src="assets/readme/secoes/formacao-continuada-claro.svg" width="100%"></picture></h2>
 
-**148 cursos** concluídos — 77 no Coursera (especializações em Machine Learning,
+**146 cursos** concluídos — 77 no Coursera (especializações em Machine Learning,
 Arquitetura Google Cloud e Algoritmos/Stanford), 25 na Udemy, 10 na Alura, além de
 Microsoft, segurança da informação e cursos de extensão.
 [Ver todos](portfolio/08-cursos/).
 
-## Currículo
+<h2><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/secoes/curriculo-escuro.svg"><img alt="Currículo" src="assets/readme/secoes/curriculo-claro.svg" width="100%"></picture></h2>
 
 [Currículo em PDF](portfolio/09-curriculo/curriculo-ronildo-silva-en.pdf) ·
 [Currículo Lattes](portfolio/09-curriculo/curriculo-lattes.pdf)
@@ -110,7 +125,8 @@ portfolio/
 
 data/catalogo.json            metadados de todos os documentos (fonte do site)
 index.html                    o site — abre por duplo clique e no GitHub Pages
-scripts/gerar-site.py         embute o catálogo no index.html
+scripts/gerar-site.py         embute o catálogo no index.html e chama gerar-identidade.py
+scripts/gerar-identidade.py   banner e faixa de números do README (assets/readme/)
 ```
 
 ### O catálogo
@@ -158,3 +174,7 @@ O `.gitignore` traz uma barreira contra commitar esse tipo de arquivo por engano
 ela não substitui conferir o documento antes de adicioná-lo.
 
 </details>
+
+<br>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/rodape-escuro.svg"><img alt="Ronildo Oliveira da Silva — catálogo do portfólio" src="assets/readme/rodape-claro.svg" width="100%"></picture>

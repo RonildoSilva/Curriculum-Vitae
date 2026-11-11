@@ -210,7 +210,22 @@ Plataforma SaaS de prevenção de churn para operadoras de planos de saúde: bac
 Competências: Python · FastAPI · SQLAlchemy · PostgreSQL · pgvector · RAG · LLM · Apache Airflow · Docker · Engenharia de Dados · Arquitetura Hexagonal · Multi-tenancy · Claude Code · MCP
 Mídia: `[ ]` página pública do produto ou post de lançamento, se houver. Os repositórios são privados.
 
-### 6.2 Fundação Cearense de Pesquisa e Cultura (FCPC) · Desenvolvedor Back-end
+### 6.2 Centro Universitário Católica de Quixadá (UniCatólica) · Professor Assistente
+
+- Período: fev 2026 até o momento · Quixadá, CE · Presencial · meio período (12 h/semana)
+- Fonte: Lattes (vínculo celetista, Professor Assistente, 12 h), certificado do 21º CBS e registro no Zenodo.
+
+```
+Professor de ensino superior nos cursos de computação: desenvolvimento web, redes de computadores, arquitetura de computadores e inteligência artificial.
+• Oriento 8 trabalhos de conclusão de curso e o estágio supervisionado em desenvolvimento web.
+• Coordeno o projeto de pesquisa GPISE (Radar Acadêmico) sobre evasão no ensino superior, com mineração de processos educacionais e dados sintéticos calibrados pelo Censo da Educação Superior (INEP).
+• Publiquei com dois orientandos o artigo "Da Complexidade do Processo à Trajetória de Presença", apresentado no 21º Congresso Brasileiro de Sistemas (Uni-FACEF, nov 2026), com código e dados abertos no Zenodo (DOI 10.5281/zenodo.23516272).
+```
+
+Competências: Docência · Orientação de TCC · Mineração de Processos · Pesquisa Científica · Desenvolvimento Web · Redes de Computadores · Inteligência Artificial
+Mídia: `portfolio/04-producao-cientifica/certificado-apresentacao-cbs-2026-radar-de-evasao.pdf` e https://doi.org/10.5281/zenodo.23516272
+
+### 6.3 Fundação Cearense de Pesquisa e Cultura (FCPC) · Desenvolvedor Back-end
 
 - Período: nov 2025 a mar 2026 · Fortaleza, CE
 
@@ -225,7 +240,7 @@ Plataforma segura de mensageria para a Agência Brasileira de Inteligência (ABI
 Competências: Django · Keycloak · Python · Segurança da Informação · APIs REST · PostgreSQL · Docker
 Mídia: nenhuma pública (projeto sensível). Anexar apenas o card institucional da FCPC, se existir.
 
-### 6.3 New Rizon · Engenheiro de Dados
+### 6.4 New Rizon · Engenheiro de Dados
 
 - Período: mai 2025 a nov 2025 · Barueri, SP
 
@@ -241,7 +256,7 @@ Engenharia de dados em nuvem e agentes de IA para suporte jurídico.
 Competências: Python · SQL · AWS · AWS Glue · Amazon S3 · Apache Airflow · Agentes de IA · LLMs · Engenharia de Dados
 Mídia: `[ ]` post ou case público da New Rizon, se existir.
 
-### 6.4 ExACTa PUC-Rio · Desenvolvedor de Software
+### 6.5 ExACTa PUC-Rio · Desenvolvedor de Software
 
 - Período: jan 2025 a abr 2025 · Rio de Janeiro, RJ
 
@@ -254,7 +269,7 @@ Mídia: `[ ]` post ou case público da New Rizon, se existir.
 Competências: Python · `[ ]` · APIs REST · Scrum · Git
 Mídia: `[ ]`
 
-### 6.5 Secretaria do Planejamento e Gestão do Ceará (SEPLAG-CE) · Analista de Desenvolvimento de Sistemas / Engenheiro de Dados
+### 6.6 Secretaria do Planejamento e Gestão do Ceará (SEPLAG-CE) · Analista de Desenvolvimento de Sistemas / Engenheiro de Dados
 
 - Período: mai 2023 a jan 2025 · Fortaleza, CE
 - Título sugerido: "Engenheiro de Dados e Desenvolvedor de Software" (o Lattes registra Analista de Desenvolvimento de Sistemas; o LinkedIn aceita o título de mercado)
@@ -270,7 +285,7 @@ Plataformas estaduais de dados: Big Data Ceará, SUITE, Ceará Digital e Observa
 Competências: AWS Glue · Amazon S3 · Amazon RDS · ETL · Spring Boot · MongoDB · APIs REST · Big Data · Python · Java
 Mídia: página pública do Big Data Ceará ou notícia oficial do Governo do Ceará.
 
-### 6.6 ÍRIS, Laboratório de Inovação e Dados do Governo do Ceará · Cientista de Pesquisa e Desenvolvimento
+### 6.7 ÍRIS, Laboratório de Inovação e Dados do Governo do Ceará · Cientista de Pesquisa e Desenvolvimento
 
 - Período: mar 2022 a mai 2023 · Fortaleza, CE
 
@@ -285,7 +300,7 @@ Big Data Social: plataforma que integra indicadores de auxílios sociais, educa�
 Competências: Delta Lake · PostgreSQL · Spring Boot · APIs REST · Big Data · Python · Java · Ciência de Dados
 Mídia: https://irislab.ce.gov.br/portfolio-item/ceara-app/ e `portfolio/06-projetos-pesquisa/apresentacao-cge-2022.pdf`
 
-### 6.7 OSF Digital · Desenvolvedor Back-end
+### 6.8 OSF Digital · Desenvolvedor Back-end
 
 - Período: nov 2020 a mar 2022 · Quixadá, CE (remoto, empresa canadense)
 
@@ -299,7 +314,7 @@ APIs e monitoramento de BI para clientes globais do setor financeiro.
 Competências: Java · Spring Boot · Oracle · Kibana · Grafana · AppDynamics · APIs REST · Microsserviços
 Mídia: `[ ]`
 
-### 6.8 Universidade Federal do Ceará · Monitor e Instrutor, projeto HCIA AI ATLAS Training CE
+### 6.9 Universidade Federal do Ceará · Monitor e Instrutor, projeto HCIA AI ATLAS Training CE
 
 - Período: out 2020 a mar 2021 · Crateús, CE
 
@@ -313,7 +328,7 @@ Formação de profissionais em Inteligência Artificial para a certificação Hu
 Competências: Machine Learning · Deep Learning · TensorFlow · Docência · Huawei HCIA-AI · Python
 Mídia: `portfolio/03-certificacoes/huawei-certified-academy-instructor.pdf`
 
-### 6.9 Insight Data Science Lab (UFC) · Bolsista de Pesquisa, Mestrado
+### 6.10 Insight Data Science Lab (UFC) · Bolsista de Pesquisa, Mestrado
 
 - Período: fev 2020 a dez 2020 · Quixadá, CE
 
@@ -327,7 +342,7 @@ Projeto SINESP Big Data e Inteligência Artificial para Segurança Pública (Min
 Competências: Python · TensorFlow · Scikit-learn · Big Data · Machine Learning · Mineração de Processos · Grafos
 Mídia: https://www.insightlab.ufc.br/projeto/sinesp-big-data-e-inteligencia-artificial-para-seguranca-publica/
 
-### 6.10 Insight Data Science Lab (UFC) · Bolsista de Pesquisa, Graduação
+### 6.11 Insight Data Science Lab (UFC) · Bolsista de Pesquisa, Graduação
 
 - Período: out 2019 a jan 2020 · Quixadá, CE
 
@@ -340,7 +355,7 @@ Projeto SENASP Big Data e Inteligência Artificial.
 Competências: Python · REST · MySQL · Machine Learning · Big Data
 Mídia: `portfolio/06-projetos-pesquisa/portfolio-de-projetos-senasp-2019.pdf`
 
-### 6.11 FUNCAP / UFC · Bolsista de Inovação Tecnológica
+### 6.12 FUNCAP / UFC · Bolsista de Inovação Tecnológica
 
 - Período: mar 2018 a set 2019 · Quixadá, CE
 
@@ -354,7 +369,7 @@ Projeto Inteligência Científica e Tecnológica Aplicada à Segurança Pública
 Competências: Visão Computacional · OpenCV · Python · Machine Learning · Biometria · Ciência de Dados
 Mídia: `portfolio/04-producao-cientifica/analise-de-extratores-e-matchers-de-minucias-em-impressoes-digitais.pdf`
 
-### 6.12 iFactory Solutions · Estagiário em Desenvolvimento de Software
+### 6.13 iFactory Solutions · Estagiário em Desenvolvimento de Software
 
 - Período: ago 2016 a jan 2018 · Quixadá, CE
 
@@ -367,7 +382,7 @@ Desenvolvimento web e gestão de serviços para a Hyatt Hotels.
 Competências: ServiceNow · AngularJS · JSP · Java · JavaScript
 Mídia: `[ ]`
 
-### 6.13 Monitorias (agrupar em uma entrada "Universidade Federal do Ceará", com cargos aninhados)
+### 6.14 Monitorias (agrupar em uma entrada "Universidade Federal do Ceará", com cargos aninhados)
 
 - Bolsista de Iniciação à Docência, Estrutura de Dados Avançada · mar a set 2016
 - Bolsista de Iniciação à Docência, Programação Orientada a Objetos · mar a dez 2015
@@ -380,7 +395,7 @@ Mídia: `[ ]`
 
 Competências: Docência · Estruturas de Dados · Java · C · Programação Orientada a Objetos
 
-### 6.14 IFCE · Monitor de Programação Estruturada
+### 6.15 IFCE · Monitor de Programação Estruturada
 
 - Período: mai a dez 2012 · Crateús, CE
 
@@ -598,6 +613,7 @@ A seção ainda não existe no perfil. Criar em "Adicionar seção" → "Conquis
 
 | Título                                                                                                                                | Veículo                                               | Data     | Coautores                                                                                                                        | Link                 |
 | ------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
+| Da Complexidade do Processo à Trajetória de Presença: Sinais de Mineração de Processos Educacionais para um Radar de Evasão no Ensino Superior | 21º Congresso Brasileiro de Sistemas (CBS), Uni-FACEF | nov 2026 | Francisca Bianca da Silva, Isaac da Silva Viana (orientandos) | https://doi.org/10.5281/zenodo.23516272 (código e dados); `[ ]` URL dos anais |
 | Predição de tempo restante para conclusão de processos de negócio utilizando aprendizado profundo                                     | SBBD 2023, 38º Simpósio Brasileiro de Bancos de Dados | set 2023 | Regis Pires Magalhães, Lívia Almada Cruz, Criston Pereira de Souza, Davi Romero de Vasconcelos, José Antônio Fernandes de Macêdo | `[ ]` URL do SOL/SBC |
 | Análise de Extratores e Matchers de Minúcias em Impressões Digitais                                                                   | Encontros Universitários UFC 2019 (Best Paper)        | 2019     | `[ ]`                                                                                                                            | `[ ]`                |
 | Proposta de Melhoria na Detecção de Minúcias em Impressões Digitais Escaneadas pelo NBIS Através de Algoritmos de Visão Computacional | Encontros Universitários UFC                          | 2018     | `[ ]`                                                                                                                            | `[ ]`                |
@@ -623,6 +639,7 @@ A seção ainda não existe no perfil. Criar em "Adicionar seção" → "Conquis
 | Big Data Social                                            | 2022 a 2023 | Indicadores de auxílios sociais, educação, moradia, trabalho e renda do Ceará, Programa Cientista Chefe           | https://irislab.ce.gov.br/portfolio-item/ceara-app/                                                     |
 | SINESP Big Data e IA                                       | 2019 a 2020 | Plataforma nacional de integração e análise de dados de segurança pública (SENASP)                                | https://www.insightlab.ufc.br/projeto/sinesp-big-data-e-inteligencia-artificial-para-seguranca-publica/ |
 | Inteligência Científica e Tecnológica na Segurança Pública | 2018 a 2019 | Identificação humana e veicular com visão computacional para SSPDS-CE e PRF                                       | https://www.insightlab.ufc.br/projeto/inteligencia-cientifica-e-tecnologica-na-seguranca-publica/       |
+| Radar Acadêmico (GPISE, UniCatólica)                       | 2026        | Radar de evasão no ensino superior com mineração de processos educacionais; código e dados abertos (MIT / CC-BY) | https://doi.org/10.5281/zenodo.23516272 |
 | HCIA AI ATLAS Training CE                                  | 2020 a 2021 | Formação de profissionais para a certificação Huawei HCIA-AI                                                      | `[ ]`                                                                                                   |
 | CLOUD AI DEV CE                                            | 2021        | Projeto de pesquisa em IA e nuvem (UFC)                                                                           | `[ ]`                                                                                                   |
 | Portfólio verificável                                      | 2026        | Site estático com 238 documentos catalogados, gerado por script Python                                            | https://ronildosilva.github.io/Curriculum-Vitae/                                                        |

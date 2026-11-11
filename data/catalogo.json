@@ -1,6 +1,6 @@
 {
- "gerado_em": "2026-08-28",
- "total": 238,
+ "gerado_em": "2026-11-11",
+ "total": 239,
  "categorias": [
   {
    "id": "01-formacao-academica",
@@ -24,7 +24,7 @@
    "id": "04-producao-cientifica",
    "nome": "Produção Científica",
    "descricao": "Artigos, resumos e trabalhos apresentados em eventos.",
-   "quantidade": 12
+   "quantidade": 13
   },
   {
    "id": "05-docencia",
@@ -822,6 +822,26 @@
    "credencial": null,
    "tipo": "pdf",
    "tamanho": 5843475
+  },
+  {
+   "arquivo": "portfolio/04-producao-cientifica/certificado-apresentacao-cbs-2026-radar-de-evasao.pdf",
+   "titulo": "Da Complexidade do Processo à Trajetória de Presença: Sinais de Mineração de Processos Educacionais para um Radar de Evasão no Ensino Superior — Certificado de Apresentação, 21º CBS",
+   "categoria": "04-producao-cientifica",
+   "categoria_nome": "Produção Científica",
+   "plataforma": null,
+   "emissor": "Uni-FACEF",
+   "data": "2026-11-06",
+   "ano": 2026,
+   "horas": 20,
+   "credencial": "CINTI1128E1.1EE9B099",
+   "tipo": "pdf",
+   "tamanho": 4361749,
+   "fonte": {
+    "evento": "21º Congresso Brasileiro de Sistemas (CBS), Uni-FACEF, Franca-SP, 5 e 6 de novembro de 2026 — sessão S07",
+    "pagina": null,
+    "url": "https://doi.org/10.5281/zenodo.23516272"
+   },
+   "nota": "Coautoria com os orientandos Francisca Bianca da Silva e Isaac da Silva Viana. Código e dados de reprodução no Zenodo (DOI 10.5281/zenodo.23516272, v1.0.0)."
   },
   {
    "arquivo": "portfolio/05-docencia/plano-de-trabalho-e-projeto-de-pesquisa-2025.pdf",
@@ -3336,12 +3356,12 @@
    "categoria_nome": "Currículo",
    "plataforma": null,
    "emissor": "CNPq",
-   "data": "2026",
+   "data": "2026-09-26",
    "ano": 2026,
    "horas": 300,
    "credencial": null,
    "tipo": "pdf",
-   "tamanho": 10726607
+   "tamanho": 10712841
   },
   {
    "arquivo": "portfolio/09-curriculo/curriculo-ronildo-silva-en.pdf",

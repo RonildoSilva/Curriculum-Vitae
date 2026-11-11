@@ -120,7 +120,21 @@ Churn-prevention SaaS for health-plan operators: backend, data pipeline and AI l
 
 Skills: Python · FastAPI · SQLAlchemy · PostgreSQL · pgvector · RAG · LLM · Apache Airflow · Docker · Data Engineering · Hexagonal Architecture · Multi-tenancy · Claude Code · MCP
 
-### 5.2 Fundação Cearense de Pesquisa e Cultura (FCPC) · Backend Developer
+### 5.2 Centro Universitário Católica de Quixadá (UniCatólica) · Assistant Professor
+
+- Feb 2026 to present · Quixadá, Ceará, Brazil · On-site · part-time (12 h/week)
+
+```
+University lecturer in computing programs: web development, computer networks, computer architecture and artificial intelligence.
+• Supervise 8 undergraduate theses and the supervised internship in web development.
+• Lead the GPISE research project (Academic Radar) on student dropout in higher education, using educational process mining and synthetic records calibrated on the national higher-education census (INEP).
+• Co-authored with two advisees the paper "From Process Complexity to Attendance Trajectory", presented at the 21st Brazilian Congress of Systems (Uni-FACEF, Nov 2026), with open code and data on Zenodo (DOI 10.5281/zenodo.23516272).
+```
+
+Skills: Teaching · Thesis Supervision · Process Mining · Scientific Research · Web Development · Computer Networks · Artificial Intelligence
+Media: `portfolio/04-producao-cientifica/certificado-apresentacao-cbs-2026-radar-de-evasao.pdf` and https://doi.org/10.5281/zenodo.23516272
+
+### 5.3 Fundação Cearense de Pesquisa e Cultura (FCPC) · Backend Developer
 
 - Nov 2025 to Mar 2026 · Fortaleza, Brazil
 
@@ -134,7 +148,7 @@ Secure messaging platform for ABIN (Brazilian Intelligence Agency), a sovereign 
 
 Skills: Django · Keycloak · Python · Information Security · REST APIs · PostgreSQL · Docker
 
-### 5.3 New Rizon · Data Engineer
+### 5.4 New Rizon · Data Engineer
 
 - May 2025 to Nov 2025 · Barueri, São Paulo, Brazil
 
@@ -149,7 +163,7 @@ Cloud data engineering and AI agents for legal support.
 
 Skills: Python · SQL · AWS · AWS Glue · Amazon S3 · Apache Airflow · AI Agents · LLMs · Data Engineering
 
-### 5.4 ExACTa PUC-Rio · Software Developer
+### 5.5 ExACTa PUC-Rio · Software Developer
 
 - Jan 2025 to Apr 2025 · Rio de Janeiro, Brazil
 
@@ -161,7 +175,7 @@ Skills: Python · SQL · AWS · AWS Glue · Amazon S3 · Apache Airflow · AI Ag
 
 Skills: Python · `[ ]` · REST APIs · Scrum · Git
 
-### 5.5 Secretaria do Planejamento e Gestão do Ceará (SEPLAG-CE) · Data Engineer and Software Developer
+### 5.6 Secretaria do Planejamento e Gestão do Ceará (SEPLAG-CE) · Data Engineer and Software Developer
 
 - May 2023 to Jan 2025 · Fortaleza, Brazil
 
@@ -175,7 +189,7 @@ State data platforms: Big Data Ceará, SUITE, Ceará Digital and Observai.
 
 Skills: AWS Glue · Amazon S3 · Amazon RDS · ETL · Spring Boot · MongoDB · REST APIs · Big Data · Python · Java
 
-### 5.6 ÍRIS, Innovation and Data Lab of the Government of Ceará · R&D Scientist
+### 5.7 ÍRIS, Innovation and Data Lab of the Government of Ceará · R&D Scientist
 
 - Mar 2022 to May 2023 · Fortaleza, Brazil
 
@@ -190,7 +204,7 @@ Big Data Social: a platform integrating indicators on social benefits, education
 Skills: Delta Lake · PostgreSQL · Spring Boot · REST APIs · Big Data · Python · Java · Data Science
 Media: https://irislab.ce.gov.br/portfolio-item/ceara-app/
 
-### 5.7 OSF Digital · Backend Developer
+### 5.8 OSF Digital · Backend Developer
 
 - Nov 2020 to Mar 2022 · Remote (Canadian company)
 
@@ -203,7 +217,7 @@ APIs and BI monitoring for global financial-services clients.
 
 Skills: Java · Spring Boot · Oracle · Kibana · Grafana · AppDynamics · REST APIs · Microservices
 
-### 5.8 Federal University of Ceará (UFC) · Instructor, HCIA AI ATLAS Training CE
+### 5.9 Federal University of Ceará (UFC) · Instructor, HCIA AI ATLAS Training CE
 
 - Oct 2020 to Mar 2021 · Crateús, Brazil
 
@@ -216,7 +230,7 @@ Training professionals in Artificial Intelligence for the Huawei HCIA-AI certifi
 
 Skills: Machine Learning · Deep Learning · TensorFlow · Teaching · Huawei HCIA-AI · Python
 
-### 5.9 Insight Data Science Lab (UFC) · Research Fellow, M.Sc.
+### 5.10 Insight Data Science Lab (UFC) · Research Fellow, M.Sc.
 
 - Feb 2020 to Dec 2020 · Quixadá, Brazil
 
@@ -230,7 +244,7 @@ SINESP Big Data and Artificial Intelligence for Public Safety (Ministry of Justi
 Skills: Python · TensorFlow · Scikit-learn · Big Data · Machine Learning · Process Mining · Graph Algorithms
 Media: https://www.insightlab.ufc.br/projeto/sinesp-big-data-e-inteligencia-artificial-para-seguranca-publica/
 
-### 5.10 Insight Data Science Lab (UFC) · Research Fellow, Undergraduate
+### 5.11 Insight Data Science Lab (UFC) · Research Fellow, Undergraduate
 
 - Oct 2019 to Jan 2020 · Quixadá, Brazil
 
@@ -242,7 +256,7 @@ SENASP Big Data and Artificial Intelligence project.
 
 Skills: Python · REST · MySQL · Machine Learning · Big Data
 
-### 5.11 FUNCAP / UFC · Technological Innovation Fellow
+### 5.12 FUNCAP / UFC · Technological Innovation Fellow
 
 - Mar 2018 to Sep 2019 · Quixadá, Brazil
 
@@ -255,7 +269,7 @@ Scientific and Technological Intelligence Applied to Public Safety (SSPDS-CE and
 
 Skills: Computer Vision · OpenCV · Python · Machine Learning · Biometrics · Data Science
 
-### 5.12 iFactory Solutions · Software Development Intern
+### 5.13 iFactory Solutions · Software Development Intern
 
 - Aug 2016 to Jan 2018 · Quixadá, Brazil
 
@@ -267,7 +281,7 @@ Web development and service management for Hyatt Hotels.
 
 Skills: ServiceNow · AngularJS · JSP · Java · JavaScript
 
-### 5.13 Federal University of Ceará · Teaching Assistant (group the three under one UFC entry)
+### 5.14 Federal University of Ceará · Teaching Assistant (group the three under one UFC entry)
 
 - Advanced Data Structures · Mar to Sep 2016
 - Object-Oriented Programming · Mar to Dec 2015
@@ -280,7 +294,7 @@ Skills: ServiceNow · AngularJS · JSP · Java · JavaScript
 
 Skills: Teaching · Data Structures · Java · C · Object-Oriented Programming
 
-### 5.14 IFCE · Teaching Assistant, Structured Programming
+### 5.15 IFCE · Teaching Assistant, Structured Programming
 
 - May to Dec 2012
 
@@ -457,6 +471,7 @@ The section does not exist on the profile yet. Create it under "Add section" →
 
 | Title | Venue | Date |
 |---|---|---|
+| From Process Complexity to Attendance Trajectory: Educational Process Mining Signals for a Dropout Radar in Higher Education (original title in Portuguese: "Da Complexidade do Processo à Trajetória de Presença: Sinais de Mineração de Processos Educacionais para um Radar de Evasão no Ensino Superior") | 21st Brazilian Congress of Systems (CBS), Uni-FACEF | Nov 2026 |
 | Remaining time prediction for business process completion using deep learning (original title in Portuguese: "Predição de tempo restante para conclusão de processos de negócio utilizando aprendizado profundo") | SBBD 2023, 38th Brazilian Symposium on Databases | Sep 2023 |
 | Analysis of Minutiae Extractors and Matchers in Fingerprints (Best Paper) | UFC Encontros Universitários 2019 | 2019 |
 | Improving Minutiae Detection in NBIS-Scanned Fingerprints Through Computer Vision Algorithms | UFC Encontros Universitários | 2018 |
@@ -481,6 +496,7 @@ The section does not exist on the profile yet. Create it under "Add section" →
 
 | Project | Period | Description | Link |
 |---|---|---|---|
+| Academic Radar (GPISE, UniCatólica) | 2026 | Dropout radar for higher education using educational process mining; open code and data (MIT / CC-BY) | https://doi.org/10.5281/zenodo.23516272 |
 | Big Data Ceará | 2023 to 2025 | State platform integrating government data. AWS pipelines, Spring Boot APIs, dashboards for managers | `[ ]` |
 | Big Data Social | 2022 to 2023 | Indicators on social benefits, education, housing, work and income in Ceará, Chief Scientist Program | https://irislab.ce.gov.br/portfolio-item/ceara-app/ |
 | SINESP Big Data and AI | 2019 to 2020 | National platform for integrating and analyzing public-safety data (SENASP) | https://www.insightlab.ufc.br/projeto/sinesp-big-data-e-inteligencia-artificial-para-seguranca-publica/ |

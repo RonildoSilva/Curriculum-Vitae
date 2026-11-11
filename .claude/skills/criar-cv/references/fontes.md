@@ -26,5 +26,5 @@
 
 ## Fatos conhecidos sem documento oficial (confirmar com o usuário antes de usar)
 
-- Docência atual: professor de ensino superior na UniCatólica de Quixadá desde fev 2026 (CLT, 12 h/semana). Disciplinas de web, redes, arquitetura de computadores e IA; orienta 8 TCCs e estágio supervisionado em web; coordenou o projeto de pesquisa GPISE sobre evasão em SI (Radar Acadêmico). Informado pelo usuário em set/out 2026. Não está no LinkedIn nem no Lattes; não citar salário.
+- Docência atual: professor de ensino superior na UniCatólica de Quixadá desde fev 2026 (CLT, 12 h/semana). Disciplinas de web, redes, arquitetura de computadores e IA; orienta 8 TCCs e estágio supervisionado em web; coordenou o projeto de pesquisa GPISE sobre evasão em SI (Radar Acadêmico). Artigo apresentado no 21º CBS (Uni-FACEF, nov 2026) com os orientandos Francisca Bianca da Silva e Isaac da Silva Viana; código e dados no Zenodo, DOI 10.5281/zenodo.23516272 (v1.0.0, out 2026, MIT + CC-BY-4.0). ORCID: 0009-0008-4629-117X. Informado pelo usuário em set/out 2026. Desde set/2026 consta no Lattes (Professor Assistente, celetista, 12 h) e tem entrada pronta no LINKEDIN.md (6.2); não citar salário.
 - Detalhes técnicos de FCPC, New Rizon e ExACTa: só o texto curto do LinkedIn.
