@@ -5,8 +5,7 @@
 Uso (da raiz do repositório):
     python3 -I .claude/skills/lattes/scripts/verificar-lattes.py [caminho-do-lattes.pdf]
 
-Sem argumento, usa o PDF mais recente em _raw/lattes/ ou, se não houver,
-portfolio/09-curriculo/curriculo-lattes.pdf.
+Sem argumento, usa o PDF mais recente em _raw/lattes/.
 
 Saída: relatório Markdown com OK / FALTA / AVISO por verificação. É um ponto de
 partida: confirme cada FALTA no PDF antes de mandar o usuário cadastrar, porque a
@@ -33,7 +32,9 @@ def achar_pdf():
     if len(sys.argv) > 1:
         return sys.argv[1]
     cand = sorted(glob.glob(os.path.join(RAIZ, "_raw", "lattes", "*.pdf")), key=os.path.getmtime)
-    return cand[-1] if cand else os.path.join(RAIZ, "portfolio", "09-curriculo", "curriculo-lattes.pdf")
+    if not cand:
+        sys.exit("nenhum PDF em _raw/lattes/: exporte o Lattes (Visualizar currículo → Gerar PDF) e salve lá")
+    return cand[-1]
 
 
 def texto_pdf(p):
@@ -94,7 +95,13 @@ def producoes_repo():
     readme = os.path.join(RAIZ, "README.md")
     if os.path.exists(readme):
         s = open(readme, encoding="utf-8").read()
-        bloco = s.split("## Produção científica", 1)[-1].split("\n## ", 1)[0]
+        # título da seção pode ser "## Produção científica" ou <h2> com imagem (alt="Produção científica")
+        m = re.search(r'(^## Produção científica$|alt="Produção científica")', s, re.M)
+        bloco = ""
+        if m:
+            resto = s[m.end():]
+            fim = re.search(r"^(## |<h2>)", resto, re.M)
+            bloco = resto[:fim.start()] if fim else resto
         for m in re.finditer(r"^- \**\[?([^\]*\n]+?)\]?(?:\([^)]*\))?\**\s+—", bloco, re.M):
             t = m.group(1).strip("* ")
             if not any(k.startswith(norm(t)) or norm(t).startswith(k) for k in titulos):
@@ -173,8 +180,15 @@ def main():
             add("OK", f"{titulo}" + (f" ({ano})" if ano else ""))
         else:
             add("FALTA", f"{titulo}" + (f" ({ano})" if ano else "") + " — está no portfólio/README e não no Lattes.")
+    # software cadastrado como registrado sem órgão de registro de verdade
+    for m in re.finditer(r"Número do registro: ([^,]+),.{0,200}?Instituição de\s+registro: ([^.\n]+)", txt, re.S):
+        inst = m.group(2).strip()
+        if not re.search(r"INPI|Propriedade Industrial|Patent|Intellectual Property", inst, re.I):
+            add("AVISO", f"programa de computador cadastrado como **registrado** (nº {m.group(1).strip()}, "
+                f"instituição “{inst}”). Repositório aberto não é órgão de registro: exclua em Patentes e "
+                "Registros e cadastre em Produção Técnica → Programa de computador sem registro.")
     for doi in sorted(set(re.findall(r"10\.5281/zenodo\.\d+", open(os.path.join(RAIZ, "README.md"), encoding="utf-8").read()))):
-        add("OK" if doi in txt else "FALTA", f"software/dados `{doi}` (Produção técnica → Softwares).")
+        add("OK" if doi in txt else "FALTA", f"software/dados `{doi}` (Produção Técnica → Programa de computador sem registro).")
 
     # 5. seções esperadas para quem é docente e pesquisador
     rel.append("\n## Seções\n")

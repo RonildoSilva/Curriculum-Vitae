@@ -90,6 +90,9 @@ item a item do checklist:
 
 - **Autoria:** ordem e nomes iguais aos do documento publicado; orientandos como coautores.
 - **Natureza:** "Completo" só com artigo integral nos anais.
+- **Registro falso:** o script avisa quando um programa de computador aparece em Patentes e
+  registros com uma instituição que não é órgão de registro (ex.: zenodo.org). Isso declara
+  propriedade intelectual que não existe; peça para excluir e refazer como "sem registro".
 - **Formulário certo:** trabalho de congresso não entra em *Artigos aceitos para publicação*
   (é para periódico); software sem registro no INPI não entra em *Programa de Computador
   Registrado*.
@@ -103,9 +106,12 @@ item a item do checklist:
   Anais + apresentação + participação é o padrão correto.
 - **Sem dado sensível:** CPF, endereço residencial, telefone e salário nunca entram no guia.
 
-Marque no checklist o que passou e liste o que ainda falta. Se tudo passou, copie o PDF
-novo para `portfolio/09-curriculo/curriculo-lattes.pdf`, atualize `data` e `tamanho` da
-entrada no catálogo e rode `python3 scripts/gerar-site.py`.
+Marque no checklist o que passou, com a data e a hora do PDF validado, e liste o que ainda
+falta.
+
+O PDF do Lattes **não** vai para o repositório: o README aponta para o link público
+(lattes.cnpq.br), que é sempre a versão atual, e um PDF copiado fica velho na próxima edição.
+O PDF fica só em `_raw/lattes/`, como insumo da verificação.
 
 ## Princípios
 

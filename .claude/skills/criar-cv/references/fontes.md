@@ -21,10 +21,11 @@
 ## Currículos anteriores para comparar tom
 
 - `portfolio/09-curriculo/curriculo-ronildo-silva-msc-de-en.pdf`: mais recente antes desta skill, foco em dados e backend. Tem "apaixonado" no resumo, evitar.
-- `portfolio/09-curriculo/curriculo-lattes.pdf`: Lattes completo, útil para datas de bolsa e projetos.
+- `_raw/lattes/*.pdf` (local, fora do git): Lattes completo exportado, útil para datas de bolsa e projetos. Versão pública: http://lattes.cnpq.br/1445392245409691
 - `cvs/*/cv.md`: currículos gerados por esta skill, um por vaga.
 
 ## Fatos conhecidos sem documento oficial (confirmar com o usuário antes de usar)
 
 - Docência atual: professor de ensino superior na UniCatólica de Quixadá desde fev 2026 (CLT, 12 h/semana). Disciplinas de web, redes, arquitetura de computadores e IA; orienta 8 TCCs e estágio supervisionado em web; coordenou o projeto de pesquisa GPISE sobre evasão em SI (Radar Acadêmico). Artigo apresentado no 21º CBS (Uni-FACEF, nov 2026) com os orientandos Francisca Bianca da Silva e Isaac da Silva Viana; código e dados no Zenodo, DOI 10.5281/zenodo.23516272 (v1.0.0, out 2026, MIT + CC-BY-4.0). ORCID: 0009-0008-4629-117X. Informado pelo usuário em set/out 2026. Desde set/2026 consta no Lattes (Professor Assistente, celetista, 12 h) e tem entrada pronta no LINKEDIN.md (6.2); não citar salário.
+- WeCogno: contrato PJ (prestação de serviços), não CLT. Informado pelo usuário em 11/11/2026. Em formulários (Lattes, cadastros) o vínculo é "Outro: prestador de serviços (PJ)" ou "Colaborador", nunca "Celetista".
 - Detalhes técnicos de FCPC, New Rizon e ExACTa: só o texto curto do LinkedIn.

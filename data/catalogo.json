@@ -1,6 +1,6 @@
 {
  "gerado_em": "2026-11-11",
- "total": 239,
+ "total": 238,
  "categorias": [
   {
    "id": "01-formacao-academica",
@@ -54,7 +54,7 @@
    "id": "09-curriculo",
    "nome": "Currículo",
    "descricao": "Versões do currículo e do Lattes.",
-   "quantidade": 7
+   "quantidade": 6
   }
  ],
  "itens": [
@@ -3348,20 +3348,6 @@
    "credencial": null,
    "tipo": "pdf",
    "tamanho": 2529213
-  },
-  {
-   "arquivo": "portfolio/09-curriculo/curriculo-lattes.pdf",
-   "titulo": "Currículo Lattes",
-   "categoria": "09-curriculo",
-   "categoria_nome": "Currículo",
-   "plataforma": null,
-   "emissor": "CNPq",
-   "data": "2026-09-26",
-   "ano": 2026,
-   "horas": 300,
-   "credencial": null,
-   "tipo": "pdf",
-   "tamanho": 10712841
   },
   {
    "arquivo": "portfolio/09-curriculo/curriculo-ronildo-silva-en.pdf",

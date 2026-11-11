@@ -100,7 +100,7 @@ Microsoft, segurança da informação e cursos de extensão.
 <h2><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/secoes/curriculo-escuro.svg"><img alt="Currículo" src="assets/readme/secoes/curriculo-claro.svg" width="100%"></picture></h2>
 
 [Currículo em PDF](portfolio/09-curriculo/curriculo-ronildo-silva-en.pdf) ·
-[Currículo Lattes](portfolio/09-curriculo/curriculo-lattes.pdf)
+[Currículo Lattes](http://lattes.cnpq.br/1445392245409691)
 
 ---
 
@@ -121,7 +121,7 @@ portfolio/
 ├── 06-projetos-pesquisa/     projetos de pesquisa e desenvolvimento
 ├── 07-eventos-e-premios/     FLISOL, WTISC, FEMECI, OBMEP, hackathons
 ├── 08-cursos/                cursos livres, por plataforma
-└── 09-curriculo/             currículo e Lattes
+└── 09-curriculo/             currículos em PDF (o Lattes fica no link público)
 
 data/catalogo.json            metadados de todos os documentos (fonte do site)
 index.html                    o site — abre por duplo clique e no GitHub Pages
