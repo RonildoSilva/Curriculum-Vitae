@@ -15,7 +15,7 @@ Arquivos de trabalho ficam em `_raw/lattes/` (ignorado pelo git; o Lattes tem da
 repositório público não deve carregar):
 
 - PDF exportado do Lattes (o mais recente é o que vale)
-- `atualizacoes.md`: o guia de preenchimento que esta skill mantém
+- `guia-de-atualizacao.md`: o guia de preenchimento que esta skill mantém
 
 ## Fluxo
 
@@ -35,6 +35,7 @@ O script devolve um relatório com OK / FALTA / AVISO cobrindo:
 - vínculos atuais, resumo citando vínculo encerrado, empregos do `LINKEDIN.md` ausentes
 - produções do catálogo e do README ausentes, DOIs Zenodo não cadastrados
 - seções esperadas (Orientações, Projetos com você como Coordenador, Eventos)
+- formação complementar abaixo de 40 h e certificados de participação em Prêmios e títulos
 
 O script casa títulos pelas primeiras palavras e pode errar com quebra de linha. Antes de
 afirmar que algo falta, confira no texto (`pdftotext -layout` + `grep -i`).
@@ -44,12 +45,16 @@ Depois complete à mão o que o script não cobre:
 - **Fatos que só o usuário informou:** a memória do projeto e
   `.claude/skills/criar-cv/references/fontes.md` (disciplinas, orientandos, projetos).
 - **Documentos novos em `_raw/`** ainda não catalogados.
+- **Formação complementar:** aplique os três filtros de `references/campos.md` (seção
+  *Formação complementar: o que entra*) ao que já está no Lattes e ao catálogo
+  (`data/catalogo.json`, categorias 03 e 08). O resultado é uma tabela manter / remover /
+  incluir, com a carga horária lida no certificado e o motivo de cada decisão.
 - **Diferenças de nome:** curso de pós, cargo, nome do evento divergindo entre Lattes,
   README e LinkedIn. Aponte; não escolha um lado sem perguntar.
 
 ### 2. Preencher: o guia campo a campo
 
-Para cada FALTA confirmada, escreva em `_raw/lattes/atualizacoes.md` a seção do formulário e
+Para cada FALTA confirmada, escreva em `_raw/lattes/guia-de-atualizacao.md` a seção do formulário e
 o valor de cada campo. Leia `references/campos.md` para saber em que seção cada fato entra e
 quais campos importam, e `references/menus.md` para o nome exato de cada menu: o usuário procura
 o texto na tela, então "Apresentações de trabalho" em vez de "Apresentação de trabalho e
@@ -76,7 +81,7 @@ três formas:
 mostram a foto do perfil e a skill é versionada num repositório público.
 
 Ordene por peso em avaliação: produção bibliográfica, orientações, projetos, produção
-técnica, eventos, atuação, ajustes de texto. Termine com um checklist. Ao reescrever o
+técnica, eventos, atuação, formação complementar, ajustes de texto. Termine com um checklist. Ao reescrever o
 guia, preserve os itens que o usuário já marcou como feitos.
 
 Textos longos (resumo, descrição de projeto) vão em bloco de código para copiar inteiro.

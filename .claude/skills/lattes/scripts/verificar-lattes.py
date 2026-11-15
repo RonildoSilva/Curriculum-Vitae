@@ -190,6 +190,18 @@ def main():
     for doi in sorted(set(re.findall(r"10\.5281/zenodo\.\d+", open(os.path.join(RAIZ, "README.md"), encoding="utf-8").read()))):
         add("OK" if doi in txt else "FALTA", f"software/dados `{doi}` (Produção Técnica → Programa de computador sem registro).")
 
+    # formação complementar: o Lattes não é catálogo (critérios em references/campos.md)
+    rel.append("\n## Formação complementar e prêmios\n")
+    fc = re.sub(r"\s+", " ", sec.get("Formação Complementar", ""))
+    cursos = re.findall(r"\d{4} - \d{4} (.+?)\. \(Carga horária: (\d+)h\)", fc)
+    curtos = [(t, int(h)) for t, h in cursos if int(h) < 40]
+    add("OK" if len(cursos) <= 15 else "AVISO", f"{len(cursos)} itens em Formação complementar (alvo: 8 a 15).")
+    for t, h in curtos:
+        add("AVISO", f"“{t[:70]}” ({h} h) abaixo de 40 h: remover.")
+    premios = re.sub(r"\s+", " ", sec.get("Prêmios e títulos", ""))
+    for t in re.findall(r"(Certificado de participação [^,]+)", premios):
+        add("AVISO", f"“{t}” em Prêmios e títulos: participação não é prêmio; remover.")
+
     # 5. seções esperadas para quem é docente e pesquisador
     rel.append("\n## Seções\n")
     for s, motivo in [("Orientações", "docente com TCCs e iniciação científica"),

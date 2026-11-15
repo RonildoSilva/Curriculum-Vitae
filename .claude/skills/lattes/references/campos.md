@@ -14,6 +14,7 @@ exatos dos menus estão em `menus.md`.
 - [Atuação profissional](#atuação-profissional)
 - [Projetos](#projetos)
 - [Dados gerais](#dados-gerais)
+- [Formação complementar: o que entra](#formação-complementar-o-que-entra)
 - [Qual seção para cada fato](#qual-seção-para-cada-fato)
 
 ## Regras gerais
@@ -38,6 +39,9 @@ exatos dos menus estão em `menus.md`.
 - **Trabalho aceito em congresso, anais ainda não publicados:** não usar *Artigos aceitos para
   publicação* (é para periódico). Registrar apresentação e participação já; o trabalho em anais
   entra quando os anais saírem.
+- **DOI do volume não é DOI do artigo:** anais com DOI só no volume (comum no Even3,
+  `10.29327/...`) não dão DOI ao trabalho. O campo DOI fica vazio e o DOI do volume vai em
+  Informações adicionais; ISBN, título dos anais e páginas vêm da ficha catalográfica.
 - **Campos `[ ]`:** quando o fato não está em nenhuma fonte, deixe `[ ]` no guia e diga ao
   usuário de onde tirar (ficha catalográfica dos anais, contrato, grade do curso).
 
@@ -129,6 +133,50 @@ financiadores, número de produções.
   ano de início.
 - **Áreas de atuação:** até 6. Subárea não deve repetir a área.
 
+## Formação complementar: o que entra
+
+O Lattes não é catálogo de certificados. Banca lê a seção procurando aderência à área do
+edital; vinte cursos de 5 a 20 horas escondem os quatro que importam e sinalizam falta de
+critério. Barema de docente costuma pontuar só "curso de atualização" a partir de 40 h e
+"aperfeiçoamento" a partir de 180 h, e ignora o resto.
+
+Um curso entra se passar nos três filtros:
+
+1. **Carga horária ≥ 40 h**, lida no certificado (não no catálogo, que pode errar). Somar
+   cursos para chegar lá só vale quando o certificado é de um programa que os agrupa
+   (especialização Coursera, trilha com certificado próprio); aí entra o programa, uma vez,
+   e não os cursos soltos.
+2. **Aderência** às áreas de atuação e linhas de pesquisa do Lattes ou às disciplinas que
+   leciona (computação, ciência de dados, IA, mineração de processos, engenharia de
+   software, docência). Curso fora da área (massagem, música, ecologia) não entra, por
+   longo que seja.
+3. **Emissor verificável:** universidade, instituto federal, fornecedor que aplica exame
+   ou plataforma com código de verificação. Comprovante que se declara "não é um
+   certificado" entra só se informar carga horária e conclusão.
+
+Exceções:
+
+- **Programa sem carga horária no certificado** (Coursera, edX): some a estimativa que o
+  emissor publica para cada curso (teto da faixa "N weeks of study, X–Y hours/week" anexa ao
+  certificado, ou a página do curso) e registre em Informações adicionais que é estimativa do
+  emissor. Curso sem estimativa conta zero; não arredonde para cima. Especialização contida
+  em outro programa (mesmos cursos) é duplicata: fica o maior.
+- **Certificação profissional com exame** (ex.: HCIA-AI, instrutor certificado) não é curso
+  e não tem carga horária: não entra em Formação complementar, onde precisaria de uma carga
+  inventada. Vai em **Dados gerais → Outras informações relevantes**, em texto corrido (nome
+  oficial, emissor, ano), e pode ser citada no resumo.
+- **Formação técnica de nível médio** já está em Formação acadêmica; cursos de informática
+  básica anteriores à graduação saem.
+- **Idioma** vai em Idiomas (proficiência). Curso de idioma só fica em Formação
+  complementar se for institucional e ≥ 40 h; nota de prova (TOEFL) não é prêmio.
+
+Fora da seção, mas no lugar certo: oficina ou minicurso que **ministrou** vai em Produção
+técnica → Cursos de curta duração ministrados; participação em evento vai em Eventos;
+certificado de participação (Maratona Xamarin) não é prêmio e sai de Prêmios e títulos.
+
+Tamanho-alvo: 8 a 15 cursos, os mais recentes e aderentes primeiro. Para remover, o caminho
+é o mesmo formulário (excluir o item); o Lattes não guarda histórico visível.
+
 ## Qual seção para cada fato
 
 | Fato nas fontes do repositório | Seção no Lattes |
@@ -144,6 +192,6 @@ financiadores, número de produções.
 | Software com registro no INPI | Patentes e Registros → Programa de Computador Registrado |
 | Banca de TCC | Bancas → Participação em bancas de trabalhos de conclusão |
 | Emprego novo (`LINKEDIN.md` seção 6) | Atuação profissional + resumo |
-| Certificação (`portfolio/03-certificacoes/`) | Formação complementar (com carga horária) ou Prêmios e títulos |
-| Curso livre (`portfolio/08-cursos/`) | Formação complementar, só os relevantes (o Lattes não é catálogo) |
+| Certificação profissional com exame (`portfolio/03-certificacoes/`) | Dados gerais → Outras informações relevantes; nunca Formação complementar sem carga horária, nem Prêmios e títulos |
+| Curso livre (`portfolio/08-cursos/`) | Formação complementar, só o que passa nos três filtros de [o que entra](#formação-complementar-o-que-entra) |
 | Best Paper, menção honrosa | Prêmios e títulos |

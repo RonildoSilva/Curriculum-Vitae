@@ -839,9 +839,10 @@
    "fonte": {
     "evento": "21º Congresso Brasileiro de Sistemas (CBS), Uni-FACEF, Franca-SP, 5 e 6 de novembro de 2026 — sessão S07",
     "pagina": null,
-    "url": "https://doi.org/10.5281/zenodo.23516272"
+    "url": "https://doi.org/10.5281/zenodo.23516272",
+    "anais": "Anais do 21º Congresso Brasileiro de Sistemas: A visão sistêmica do Desenvolvimento Regional (Uni-FACEF, 2026), resumo expandido, p. 127–144, ISBN 978-65-84409-27-9, DOI 10.29327/5988556"
    },
-   "nota": "Coautoria com os orientandos Francisca Bianca da Silva e Isaac da Silva Viana. Código e dados de reprodução no Zenodo (DOI 10.5281/zenodo.23516272, v1.0.0)."
+   "nota": "Coautoria com os orientandos Francisca Bianca da Silva e Isaac da Silva Viana. Publicado nos anais (DOI do volume 10.29327/5988556; o artigo não tem DOI próprio). Código e dados de reprodução no Zenodo (DOI 10.5281/zenodo.23516272, v1.0.0)."
   },
   {
    "arquivo": "portfolio/05-docencia/plano-de-trabalho-e-projeto-de-pesquisa-2025.pdf",
@@ -1335,11 +1336,11 @@
   },
   {
    "arquivo": "portfolio/08-cursos/outros/bootcamp-cielo.pdf",
-   "titulo": "Bootcamp Cielo — Ciência de Dados",
+   "titulo": "Bootcamp Cielo Dev",
    "categoria": "08-cursos",
    "categoria_nome": "Cursos",
    "plataforma": "Outros",
-   "emissor": "DIO",
+   "emissor": "Ada Tech",
    "data": "2023",
    "ano": 2023,
    "horas": 60,
@@ -1423,10 +1424,10 @@
    "categoria": "08-cursos",
    "categoria_nome": "Cursos",
    "plataforma": "Outros",
-   "emissor": null,
+   "emissor": "Data Science Academy",
    "data": "2022",
    "ano": 2022,
-   "horas": 20,
+   "horas": 8,
    "credencial": null,
    "tipo": "pdf",
    "tamanho": 3224619
