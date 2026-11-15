@@ -104,7 +104,7 @@ item a item do checklist:
 - **Marcações de Dados gerais:** "10 mais relevantes" só para artigos em periódico e anais
   completos (o limite é 10); "popularização de CeT" sim para código e dados abertos, palestra
   ao público e material didático, não para artigo científico.
-- **DOI no item certo:** DOI do Zenodo no software, não no artigo.
+- **DOI no item certo:** DOI do Zenodo no software (no Resumo, já que o formulário sem registro não tem campo de DOI), não no artigo.
 - **Coerência de datas:** produção no ano do evento; vínculo e atividades sem sobreposição
   impossível; orientação concluída só com ano de conclusão.
 - **Duplicidade:** o mesmo artigo não pode aparecer duas vezes em produção bibliográfica.

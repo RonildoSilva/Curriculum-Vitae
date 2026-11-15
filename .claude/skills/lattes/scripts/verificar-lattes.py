@@ -187,8 +187,21 @@ def main():
             add("AVISO", f"programa de computador cadastrado como **registrado** (nº {m.group(1).strip()}, "
                 f"instituição “{inst}”). Repositório aberto não é órgão de registro: exclua em Patentes e "
                 "Registros e cadastre em Produção Técnica → Programa de computador sem registro.")
+    # o PDF não imprime o Resumo do software, onde o DOI fica: sem o DOI, procura a subseção
+    sw = re.search(r"Programas de computador sem registro\s*(.+?)(?:\n\S|\Z)", txt, re.S)
+    sw_itens = re.findall(r"\d+\.\s+(.+?\. \d{4})\.", re.sub(r"\s+", " ", sw.group(1))) if sw else []
     for doi in sorted(set(re.findall(r"10\.5281/zenodo\.\d+", open(os.path.join(RAIZ, "README.md"), encoding="utf-8").read()))):
-        add("OK" if doi in txt else "FALTA", f"software/dados `{doi}` (Produção Técnica → Programa de computador sem registro).")
+        if doi in txt:
+            add("OK", f"software/dados `{doi}`.")
+        elif sw_itens:
+            add("AVISO", f"`{doi}` não aparece no PDF (o Lattes não imprime o Resumo do software). Itens em "
+                "Programas de computador sem registro: " + " | ".join(f"“{t}”" for t in sw_itens)
+                + ". Confira título, ano e autores.")
+        else:
+            add("FALTA", f"software/dados `{doi}` (Produção Técnica → Programa de computador sem registro).")
+    if "Educação e Popularização de C & T" not in sec and sw_itens:
+        add("AVISO", "há software aberto, mas nenhuma seção Educação e Popularização de C & T: "
+            "a marcação de popularização de CeT ficou em “não”.")
 
     # formação complementar: o Lattes não é catálogo (critérios em references/campos.md)
     rel.append("\n## Formação complementar e prêmios\n")

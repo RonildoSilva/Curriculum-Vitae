@@ -77,7 +77,7 @@ Caminho: **Produções → Produção técnica**
 
 | Tipo | Quando | Campos críticos |
 | --- | --- | --- |
-| Programa de computador sem registro | Repositório público, pacote Zenodo | home page, DOI, finalidade, plataforma, ambiente, disponibilidade (Irrestrita); obrigatórios: **linguagens**, **inventores** (incluindo você), **instituição financiadora** (sem fomento: a instituição onde foi feito) e **potencial de inovação** (código de pesquisa: o nível mais baixo, sem inflar) |
+| Programa de computador sem registro | Repositório público, pacote Zenodo | natureza Computacional; título igual ao do repositório; **ano de desenvolvimento** = ano da versão publicada e do copyright do LICENSE; finalidade curta; popularização de CeT **sim** se o código é aberto; potencial de inovação **Não** para código de reprodução de pesquisa (confira: o Sim apareceu marcado); linguagens; instituição financiadora (sem fomento: a instituição onde foi feito); **Depositante/Titular** = quem consta no copyright do LICENSE; autores na ordem do Zenodo; **DOI, URL, versão e licenças no Resumo**, porque o formulário não tem campo para eles |
 | Cursos de curta duração ministrados | Oficinas, minicursos | carga horária, participação (Docente) |
 | Relatório de pesquisa | Relatório técnico entregue a financiador | — |
 

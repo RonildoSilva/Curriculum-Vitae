@@ -30,10 +30,18 @@ Conferida nas capturas de 11/11/2026 (07:06–07:10).
 - **Programa de computador registrado** pede "Instituição onde foi depositado" (INPI e
   escritórios estrangeiros) e número. Só para registro formal; repositório aberto vai em
   Programa de computador sem registro.
-- **Programa de computador sem registro** tem campos obrigatórios que só aparecem ao salvar:
-  "Qual o potencial de inovação?", "Instituição(ções) financiadora(s)", "Linguagens", e a
-  lista de autores se chama **inventores** e precisa incluir o dono do currículo
-  (mensagens de validação de 11/11/2026).
+- **Programa de computador sem registro** (formulário conferido em 15/11/2026): abas Dados
+  gerais, Depositante/Titular, Autores, Palavras-chave, Áreas, Setores, Resumo, Traduções
+  (Title, Other information) e Visibilidade. Dados gerais: Natureza (Computacional /
+  Multimídia / Outro), Título, Ano de desenvolvimento, País, Finalidade (uma linha),
+  popularização de CeT, "Possui potencial de inovação de produtos, processos ou serviços?"
+  (Sim / Não; o texto "Qual o potencial de inovação?" só se aplica ao Sim, que estava
+  marcado na captura), 10 mais relevantes, Instituição(ões) financiadora(s) (texto, separadas por
+  ponto e vírgula), Linguagens (texto) e Tipo de programa (lista). Depositante/Titular tem
+  Pessoas e Instituições. **Não há** campo de DOI, home page, idioma, plataforma, ambiente,
+  disponibilidade nem informações adicionais: DOI e link vão no Resumo.
+- As mensagens de 11/11/2026 que chamavam os autores de **inventores** e exigiam potencial de
+  inovação vieram do formulário *registrado*, aberto por engano.
 - A aba **Traduções** tem o link "Clique aqui para repetir os textos já informados".
 
 ## Dados gerais
