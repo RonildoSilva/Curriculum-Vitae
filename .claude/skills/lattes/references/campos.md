@@ -42,6 +42,16 @@ exatos dos menus estão em `menus.md`.
 - **DOI do volume não é DOI do artigo:** anais com DOI só no volume (comum no Even3,
   `10.29327/...`) não dão DOI ao trabalho. O campo DOI fica vazio e o DOI do volume vai em
   Informações adicionais; ISBN, título dos anais e páginas vêm da ficha catalográfica.
+- **Qualis de evento:** o Lattes não tem campo de Qualis, mas banca e edital pontuam por
+  estrato. Para conferir, use a lista oficial da área (Computação 2017–2020:
+  `RelatorioQualisEventos2017-2020-Computacao.pdf`, CAPES) e case pelo **nome completo**,
+  nunca só pela sigla. Estado conferido em 15/11/2026:
+  - **SBBD** (Simpósio Brasileiro de Banco de Dados): **A4**.
+  - **CBS da Uni-FACEF** (Congresso Brasileiro de Sistemas, com o Encontro de Pesquisadores):
+    **sem Qualis**. Não está na lista, e os anais são interdisciplinares (CDD 050). Na lista,
+    a sigla CBS é do *IEEE International Conference on Cyborg and Bionic Systems* (**B3**), e
+    o CBSF (B4) é o *Congresso Brasileiro de Sistemas Fuzzy*: nenhum dos dois é o seu.
+    Em barema, o trabalho conta como resumo expandido em anais de evento nacional com ISBN.
 - **Campos `[ ]`:** quando o fato não está em nenhuma fonte, deixe `[ ]` no guia e diga ao
   usuário de onde tirar (ficha catalográfica dos anais, contrato, grade do curso).
 
